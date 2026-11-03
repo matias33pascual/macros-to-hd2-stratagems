@@ -47,7 +47,7 @@ The script (one request at a time, 1 s apart):
 - lists the pages that use `Template:Stratagem_code` on helldivers.wiki.gg and reads the `stratagem_code` field of each one;
 - maps entries without `wikiPage` by normalized English name, then by a key code only one page has (listed for review);
 - keeps ids and translations, updates changed key codes, adds new stratagems (Support Weapon, Backpack, Emplacement, Sentry, Vehicle, Orbital, Eagle) with the page title as `en` name;
-- skips wiki subpages (April Fools) and non-stratagem types, and downloads the SVG icons it matches by normalized name;
+- skips wiki subpages (April Fools) and non-stratagem types, and downloads the SVG icons it matches by name: exact, without the designator, designator alone, icon without its `Guard Dog ` prefix, then `icon_aliases.json` (wiki page to icon path in the icons repo); several hits means no match;
 - prints a report: new entries, changed codes, mappings, entries without icon, missing translations, skipped and rejected wiki pages.
 
 Pages with an unknown direction, several different codes or no code are rejected and reported, never guessed. New entries need their `es`, `pt` and `ru` names added by hand.

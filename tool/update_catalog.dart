@@ -1,9 +1,11 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
 import 'package:macros_to_hd2_stratagems/stratagems_catalog.dart';
 
 const String catalogFile = 'stratagems.json';
+const String aliasesFile = 'icon_aliases.json';
 
 /// Refreshes `stratagems.json` and `icons/` from the wiki and the icons repo.
 /// Run from the repository root: `dart run tool/update_catalog.dart`.
@@ -15,7 +17,10 @@ Future<void> main() async {
   try {
     stdout.writeln('Fetching icon list...');
     final iconClient = IconClient(client);
-    final iconIndex = await iconClient.fetchIndex();
+    final aliases = Map<String, String>.from(
+      jsonDecode(File('${root.path}/$aliasesFile').readAsStringSync()) as Map,
+    );
+    final iconIndex = await iconClient.fetchIndex(aliases: aliases);
     final wiki = await WikiClient(client, log: stdout.writeln).fetchSnapshot();
     final result = mergeCatalog(
       existing: existing,

@@ -18,7 +18,7 @@ class IconClient {
 
   final http.Client _http;
 
-  Future<IconIndex> fetchIndex() async {
+  Future<IconIndex> fetchIndex({Map<String, String> aliases = const {}}) async {
     final response = await _http.get(
       _treeUrl,
       headers: {'User-Agent': userAgent},
@@ -31,7 +31,7 @@ class IconClient {
       for (final node in tree)
         if ((node as Map<String, dynamic>)['type'] == 'blob')
           node['path'] as String,
-    ]);
+    ], aliases: aliases);
   }
 
   /// Downloads [source] into [root] unless the file already exists.

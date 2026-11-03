@@ -224,10 +224,15 @@ CatalogEntry _applyIcon(
   final source = index.match([
     entry.englishName,
     if (entry.wikiPage != null) entry.wikiPage!,
-  ]);
+  ], wikiPage: entry.wikiPage);
   if (source == null) {
     if (!entry.icon.startsWith('$iconsFolder/')) {
       report.withoutIconMatch.add('${entry.id} ${entry.englishName}');
+      if (entry.icon.isNotEmpty) {
+        report.appIconEntries.add(
+          '${entry.id} ${entry.englishName}: ${entry.icon}',
+        );
+      }
     }
     return entry;
   }

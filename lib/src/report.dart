@@ -7,6 +7,7 @@ class MergeReport {
   final List<String> unmappedEntries = [];
   final List<String> missingInWiki = [];
   final List<String> withoutIconMatch = [];
+  final List<String> appIconEntries = [];
   final List<String> missingTranslations = [];
   final List<String> skippedWikiPages = [];
   final List<String> rejectedWikiPages = [];
@@ -23,6 +24,7 @@ class MergeReport {
       'Entries whose wiki page was not parsed (missing, rejected or skipped)':
           missingInWiki,
       'Entries without icon match': withoutIconMatch,
+      'Entries still using an app icon path (assets/icons/)': appIconEntries,
       'Entries missing es/pt/ru names (fall back to en)': missingTranslations,
       'Wiki pages skipped (not a cataloged stratagem type)': skippedWikiPages,
       'Wiki pages rejected (ambiguous or invalid)': rejectedWikiPages,
