@@ -210,7 +210,7 @@ _NewEntries _newEntries({
         keysCode: page.keysCode,
         icon: '',
         cooldown: page.cooldown!,
-        names: {fallbackLanguage: page.page.toUpperCase()},
+        names: {fallbackLanguage: page.page},
       ),
     );
     report.newEntries.add('$id ${page.page}');

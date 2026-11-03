@@ -109,11 +109,11 @@ void main() {
 
     final added = result.catalog.entries.last;
     expect(added.id, '008');
-    expect(added.names, {'en': 'ORBITAL FLARE'});
+    expect(added.names, {'en': 'Orbital Flare'});
     expect(added.wikiName, 'Orbital Flare');
     expect(added.cooldown, '90');
     expect(result.report.newEntries, hasLength(1));
-    expect(result.report.missingTranslations.single, contains('ORBITAL FLARE'));
+    expect(result.report.missingTranslations.single, contains('Orbital Flare'));
     expect(result.catalog.version, 2);
   });
 

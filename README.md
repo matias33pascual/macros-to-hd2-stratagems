@@ -37,7 +37,7 @@ Helldivers 2 stratagems catalog used by Macros to HD2 Game, plus the script that
 - `icon`: path relative to the repo (`icons/<slug>.svg`). Entries not matched yet keep the app asset name (`assets/icons/*.webp`) they were seeded with; those are not files of this repo.
 - `cooldown`: seconds, as a string.
 - `wikiName`: English name exactly as the wiki shows it (the page title). Kept in sync on every run; absent when there is no `wikiPage`.
-- `names`: display names in the app style (uppercase) for `en`, `es`, `pt`, `ru`. The script never overwrites them; a new entry gets `en` from `wikiName` uppercased and the other languages are reported as missing, to be written by hand.
+- `names`: display names for `en`, `es`, `pt`, `ru`, in natural case (English in Title Case like the wiki; Spanish, Portuguese and Russian in sentence case; codes, acronyms and proper names keep their case). The script never overwrites them; a new entry gets `en` from `wikiName` and the other languages are reported as missing, to be written by hand.
 - `deprecated`: `true` on legacy duplicates the app keeps for saved missions but hides; omitted otherwise. The script preserves it.
 
 ## Update
@@ -52,7 +52,7 @@ The script (one request at a time, 1 s apart):
 
 - lists the pages that use `Template:Stratagem_code` on helldivers.wiki.gg and reads the `stratagem_code` field of each one;
 - maps entries without `wikiPage` by normalized English name, then by a key code only one page has (listed for review);
-- keeps ids and translations, updates changed key codes, adds new stratagems (Support Weapon, Backpack, Emplacement, Sentry, Vehicle, Orbital, Eagle) with `wikiName` uppercased as `en` name and the wiki name kept in sync;
+- keeps ids and translations, updates changed key codes, adds new stratagems (Support Weapon, Backpack, Emplacement, Sentry, Vehicle, Orbital, Eagle) with `wikiName` as `en` name and the wiki name kept in sync;
 - skips wiki subpages (April Fools) and non-stratagem types, and downloads the SVG icons it matches by name: exact, without the designator, designator alone, icon without its `Guard Dog ` prefix, then `icon_aliases.json` (wiki page to icon path in the icons repo); several hits means no match;
 - prints a report: new entries, changed codes, mappings, entries without icon, missing translations, skipped and rejected wiki pages;
 - never adds the pages listed in `excluded.json` (event or joke stratagems, e.g. `Orbital Confetti`); to retire an entry, remove it from `stratagems.json`, add its page title there and keep `nextId`.
