@@ -1,9 +1,10 @@
 {
-  "version": 1,
-  "gameVersion": "0.000.000",
+  "version": 2,
+  "gameVersion": "1.007.202",
   "stratagems": [
     {
       "id": "000",
+      "wikiPage": "Reinforce",
       "type": "mission",
       "keysCode": [
         "up",
@@ -12,7 +13,7 @@
         "left",
         "up"
       ],
-      "icon": "assets/icons/Reinforce.webp",
+      "icon": "icons/reinforce.svg",
       "cooldown": "1",
       "names": {
         "en": "REINFORCEMENT",
@@ -23,6 +24,7 @@
     },
     {
       "id": "001",
+      "wikiPage": "SoS Beacon",
       "type": "mission",
       "keysCode": [
         "up",
@@ -30,7 +32,7 @@
         "right",
         "up"
       ],
-      "icon": "assets/icons/SOS-Beacon.webp",
+      "icon": "icons/sos-beacon.svg",
       "cooldown": "1",
       "names": {
         "en": "S.O.S BEACON",
@@ -41,6 +43,7 @@
     },
     {
       "id": "002",
+      "wikiPage": "Resupply",
       "type": "mission",
       "keysCode": [
         "down",
@@ -48,7 +51,7 @@
         "up",
         "right"
       ],
-      "icon": "assets/icons/Resupply.webp",
+      "icon": "icons/resupply.svg",
       "cooldown": "180",
       "names": {
         "en": "RESUPPLY",
@@ -59,6 +62,7 @@
     },
     {
       "id": "003",
+      "wikiPage": "NUX-223 Hellbomb",
       "type": "mission",
       "keysCode": [
         "down",
@@ -70,7 +74,7 @@
         "down",
         "up"
       ],
-      "icon": "assets/icons/Hellbomb.webp",
+      "icon": "icons/hellbomb.svg",
       "cooldown": "30",
       "names": {
         "en": "HELL BOMB",
@@ -81,6 +85,7 @@
     },
     {
       "id": "004",
+      "wikiPage": "SEAF Artillery",
       "type": "mission",
       "keysCode": [
         "right",
@@ -88,7 +93,7 @@
         "up",
         "down"
       ],
-      "icon": "assets/icons/SEAF-Artillery.webp",
+      "icon": "icons/seaf-artillery.svg",
       "cooldown": "11",
       "names": {
         "en": "SEAF ARTILLERY",
@@ -99,6 +104,7 @@
     },
     {
       "id": "005",
+      "wikiPage": "Eagle Rearm",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -107,7 +113,7 @@
         "up",
         "right"
       ],
-      "icon": "assets/icons/Eagle-Rearm.webp",
+      "icon": "icons/eagle-rearm.svg",
       "cooldown": "150",
       "names": {
         "en": "EAGLE REARM",
@@ -118,13 +124,14 @@
     },
     {
       "id": "006",
+      "wikiPage": "Eagle Strafing Run",
       "type": "eagle",
       "keysCode": [
         "up",
         "right",
         "right"
       ],
-      "icon": "assets/icons/Eagle-Strafing-Run.webp",
+      "icon": "icons/eagle-strafing-run.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE STRAFING RUN",
@@ -135,6 +142,7 @@
     },
     {
       "id": "007",
+      "wikiPage": "Eagle Airstrike",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -142,7 +150,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/Eagle-Airstrike.webp",
+      "icon": "icons/eagle-airstrike.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE AIR STRIKE",
@@ -153,6 +161,7 @@
     },
     {
       "id": "008",
+      "wikiPage": "Eagle Cluster Bomb",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -161,7 +170,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/Eagle-Cluster-Bomb.webp",
+      "icon": "icons/eagle-cluster-bomb.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE CLUSTER BOMB",
@@ -172,6 +181,7 @@
     },
     {
       "id": "009",
+      "wikiPage": "Eagle Napalm Airstrike",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -179,7 +189,7 @@
         "down",
         "up"
       ],
-      "icon": "assets/icons/Eagle-Napalm-Airstrike.webp",
+      "icon": "icons/eagle-napalm-airstrike.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE NAPALM AIR STRIKE",
@@ -190,6 +200,7 @@
     },
     {
       "id": "010",
+      "wikiPage": "Eagle Smoke Strike",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -197,7 +208,7 @@
         "up",
         "down"
       ],
-      "icon": "assets/icons/Eagle-Smoke-Strike.webp",
+      "icon": "icons/eagle-smoke-strike.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE SMOKE ATTACK",
@@ -208,6 +219,7 @@
     },
     {
       "id": "011",
+      "wikiPage": "Eagle 110mm Rocket Pods",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -215,7 +227,7 @@
         "up",
         "left"
       ],
-      "icon": "assets/icons/Eagle-110MM-Rocket-Pods.webp",
+      "icon": "icons/eagle-110mm-rocket-pods.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE 110 MM ROCKET PODS",
@@ -226,6 +238,7 @@
     },
     {
       "id": "012",
+      "wikiPage": "Eagle 500kg Bomb",
       "type": "eagle",
       "keysCode": [
         "up",
@@ -234,7 +247,7 @@
         "down",
         "down"
       ],
-      "icon": "assets/icons/Eagle-500KG-Bomb.webp",
+      "icon": "icons/eagle-500kg-bomb.svg",
       "cooldown": "8",
       "names": {
         "en": "EAGLE 500 KG BOMB",
@@ -245,6 +258,7 @@
     },
     {
       "id": "013",
+      "wikiPage": "LIFT-850 Jump Pack",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -253,7 +267,7 @@
         "down",
         "up"
       ],
-      "icon": "assets/icons/Jump-Pack.webp",
+      "icon": "icons/jump-pack.svg",
       "cooldown": "480",
       "names": {
         "en": "JUMP PACK",
@@ -264,6 +278,7 @@
     },
     {
       "id": "014",
+      "wikiPage": "B-1 Supply Pack",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -273,7 +288,7 @@
         "up",
         "down"
       ],
-      "icon": "assets/icons/Supply-Pack.webp",
+      "icon": "icons/supply-pack.svg",
       "cooldown": "480",
       "names": {
         "en": "SUPPLY PACK",
@@ -284,6 +299,7 @@
     },
     {
       "id": "015",
+      "wikiPage": "AX/LAS-5 Rover",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -304,6 +320,7 @@
     },
     {
       "id": "016",
+      "wikiPage": "SH-20 Ballistic Shield Backpack",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -313,7 +330,7 @@
         "up",
         "left"
       ],
-      "icon": "assets/icons/Ballistic-Shield-Backpack.webp",
+      "icon": "icons/ballistic-shield-backpack.svg",
       "cooldown": "300",
       "names": {
         "en": "BALLISTIC SHIELD PACK",
@@ -324,6 +341,7 @@
     },
     {
       "id": "017",
+      "wikiPage": "SH-32 Shield Generator Pack",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -333,7 +351,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Shield-Generator-Pack.webp",
+      "icon": "icons/shield-generator-pack.svg",
       "cooldown": "480",
       "names": {
         "en": "SHIELD GENERATOR PACK",
@@ -344,6 +362,7 @@
     },
     {
       "id": "018",
+      "wikiPage": "AX/AR-23 Guard Dog",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -353,7 +372,7 @@
         "right",
         "down"
       ],
-      "icon": "assets/icons/Guard-Dog.webp",
+      "icon": "icons/guard-dog.svg",
       "cooldown": "480",
       "names": {
         "en": "GUARD DOG",
@@ -364,6 +383,7 @@
     },
     {
       "id": "019",
+      "wikiPage": "E/MG-101 HMG Emplacement",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -373,7 +393,7 @@
         "right",
         "left"
       ],
-      "icon": "assets/icons/HGM-Emplacement.webp",
+      "icon": "icons/hmg-emplacement.svg",
       "cooldown": "180",
       "names": {
         "en": "HGM PLACEMENT",
@@ -384,6 +404,7 @@
     },
     {
       "id": "020",
+      "wikiPage": "FX-12 Shield Generator Relay",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -393,7 +414,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Shield-Generator-Relay.webp",
+      "icon": "icons/shield-generator-relay.svg",
       "cooldown": "90",
       "names": {
         "en": "SHIELD GENERATOR RELAY",
@@ -404,6 +425,7 @@
     },
     {
       "id": "021",
+      "wikiPage": "A/ARC-3 Tesla Tower",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -413,7 +435,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Tesla-Tower.webp",
+      "icon": "icons/tesla-tower.svg",
       "cooldown": "150",
       "names": {
         "en": "TESLA TOWER",
@@ -424,6 +446,7 @@
     },
     {
       "id": "022",
+      "wikiPage": "MD-6 Anti-Personnel Minefield",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -431,7 +454,7 @@
         "up",
         "right"
       ],
-      "icon": "assets/icons/Anti-Personnel-Minefield.webp",
+      "icon": "icons/anti-personnel-minefield.svg",
       "cooldown": "180",
       "names": {
         "en": "ANTIPERSONNEL MINEFIELD",
@@ -442,6 +465,7 @@
     },
     {
       "id": "023",
+      "wikiPage": "MD-I4 Incendiary Mines",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -449,7 +473,7 @@
         "left",
         "down"
       ],
-      "icon": "assets/icons/Incendiary-Mines.webp",
+      "icon": "icons/incendiary-mines.svg",
       "cooldown": "180",
       "names": {
         "en": "INCENDIARY MINES",
@@ -460,6 +484,7 @@
     },
     {
       "id": "024",
+      "wikiPage": "A/MG-43 Machine Gun Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -468,7 +493,7 @@
         "right",
         "up"
       ],
-      "icon": "assets/icons/Machine-Gun-Sentry.webp",
+      "icon": "icons/machine-gun-sentry.svg",
       "cooldown": "120",
       "names": {
         "en": "MACHINE GUN SENTRY",
@@ -479,6 +504,7 @@
     },
     {
       "id": "025",
+      "wikiPage": "A/G-16 Gatling Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -486,7 +512,7 @@
         "right",
         "left"
       ],
-      "icon": "assets/icons/Gatling-Sentry.webp",
+      "icon": "icons/gatling-sentry.svg",
       "cooldown": "180",
       "names": {
         "en": "GATLING SENTRY",
@@ -497,6 +523,7 @@
     },
     {
       "id": "026",
+      "wikiPage": "A/M-12 Mortar Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -505,7 +532,7 @@
         "right",
         "down"
       ],
-      "icon": "assets/icons/Mortar-Sentry.webp",
+      "icon": "icons/mortar-sentry.svg",
       "cooldown": "180",
       "names": {
         "en": "MORTAR SENTRY",
@@ -516,6 +543,7 @@
     },
     {
       "id": "027",
+      "wikiPage": "A/AC-8 Autocannon Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -525,7 +553,7 @@
         "left",
         "up"
       ],
-      "icon": "assets/icons/Autocannon-Sentry.webp",
+      "icon": "icons/autocannon-sentry.svg",
       "cooldown": "180",
       "names": {
         "en": "AUTOCANNON SENTRY",
@@ -536,6 +564,7 @@
     },
     {
       "id": "028",
+      "wikiPage": "A/MLS-4X Rocket Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -544,7 +573,7 @@
         "right",
         "left"
       ],
-      "icon": "assets/icons/Rocket-Sentry.webp",
+      "icon": "icons/rocket-sentry.svg",
       "cooldown": "180",
       "names": {
         "en": "ROCKET SENTRY",
@@ -555,6 +584,7 @@
     },
     {
       "id": "029",
+      "wikiPage": "A/M-23 EMS Mortar Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -563,7 +593,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/EMS-Mortar-Sentry.webp",
+      "icon": "icons/ems-mortar-sentry.svg",
       "cooldown": "180",
       "names": {
         "en": "OEM MORTAR SENTRY",
@@ -574,6 +604,7 @@
     },
     {
       "id": "030",
+      "wikiPage": "Orbital Gatling Barrage",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -582,7 +613,7 @@
         "up",
         "up"
       ],
-      "icon": "assets/icons/Orbital-Gatling-Barrage.webp",
+      "icon": "icons/orbital-gatling-barrage.svg",
       "cooldown": "70",
       "names": {
         "en": "ORBITAL GATLING STRIKE",
@@ -593,13 +624,14 @@
     },
     {
       "id": "031",
+      "wikiPage": "Orbital Airburst Strike",
       "type": "orbital",
       "keysCode": [
         "right",
         "right",
         "right"
       ],
-      "icon": "assets/icons/Orbital-Airburst-Strike.webp",
+      "icon": "icons/orbital-airburst-strike.svg",
       "cooldown": "100",
       "names": {
         "en": "ORBITAL AIRBURST ATTACK",
@@ -610,6 +642,7 @@
     },
     {
       "id": "032",
+      "wikiPage": "Orbital 120mm HE Barrage",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -619,7 +652,7 @@
         "right",
         "down"
       ],
-      "icon": "assets/icons/Orbital-120MM-HE-Barrage.webp",
+      "icon": "icons/orbital-120mm-he-barrage.svg",
       "cooldown": "180",
       "names": {
         "en": "ORBITAL 120 MM AE STRIKE",
@@ -630,6 +663,7 @@
     },
     {
       "id": "033",
+      "wikiPage": "Orbital 380mm HE Barrage",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -640,7 +674,7 @@
         "down",
         "down"
       ],
-      "icon": "assets/icons/Orbital-380MM-HE-Barrage.webp",
+      "icon": "icons/orbital-380mm-he-barrage.svg",
       "cooldown": "240",
       "names": {
         "en": "ORBITAL 380 MM AE STRIKE",
@@ -651,6 +685,7 @@
     },
     {
       "id": "034",
+      "wikiPage": "Orbital Walking Barrage",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -660,7 +695,7 @@
         "right",
         "down"
       ],
-      "icon": "assets/icons/Orbital-Walking-Barrage.webp",
+      "icon": "icons/orbital-walking-barrage.svg",
       "cooldown": "240",
       "names": {
         "en": "ORBITAL WALKING BARRAGE",
@@ -671,6 +706,7 @@
     },
     {
       "id": "035",
+      "wikiPage": "Orbital Laser",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -679,7 +715,7 @@
         "right",
         "down"
       ],
-      "icon": "assets/icons/Orbital-Laser.webp",
+      "icon": "icons/orbital-laser.svg",
       "cooldown": "300",
       "names": {
         "en": "ORBITAL LASER",
@@ -690,6 +726,7 @@
     },
     {
       "id": "036",
+      "wikiPage": "Orbital Railcannon Strike",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -698,7 +735,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/Orbital-Railcannon-Strike.webp",
+      "icon": "icons/orbital-railcannon-strike.svg",
       "cooldown": "210",
       "names": {
         "en": "ORBITAL RAILGUN STRIKE",
@@ -709,13 +746,14 @@
     },
     {
       "id": "037",
+      "wikiPage": "Orbital Precision Strike",
       "type": "orbital",
       "keysCode": [
         "right",
         "right",
         "up"
       ],
-      "icon": "assets/icons/Orbital-Precision-Strike.webp",
+      "icon": "icons/orbital-precision-strike.svg",
       "cooldown": "90",
       "names": {
         "en": "ORBITAL PRECISION STRIKE",
@@ -726,6 +764,7 @@
     },
     {
       "id": "038",
+      "wikiPage": "Orbital Gas Strike",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -733,7 +772,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/Orbital-Gas-Strike.webp",
+      "icon": "icons/orbital-gas-strike.svg",
       "cooldown": "75",
       "names": {
         "en": "ORBITAL GAS ATTACK",
@@ -762,6 +801,7 @@
     },
     {
       "id": "040",
+      "wikiPage": "Orbital Smoke Strike",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -769,7 +809,7 @@
         "down",
         "up"
       ],
-      "icon": "assets/icons/Orbital-Smoke-Strike.webp",
+      "icon": "icons/orbital-smoke-strike.svg",
       "cooldown": "100",
       "names": {
         "en": "ORBITAL SMOKE ATTACK",
@@ -780,6 +820,7 @@
     },
     {
       "id": "041",
+      "wikiPage": "MG-43 Machine Gun",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -788,7 +829,7 @@
         "up",
         "right"
       ],
-      "icon": "assets/icons/Machine-Gun.webp",
+      "icon": "icons/machine-gun.svg",
       "cooldown": "480",
       "names": {
         "en": "MACHINE GUN",
@@ -799,6 +840,7 @@
     },
     {
       "id": "042",
+      "wikiPage": "APW-1 Anti-Materiel Rifle",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -807,7 +849,7 @@
         "up",
         "down"
       ],
-      "icon": "assets/icons/Anti-Materiel-Rifle.webp",
+      "icon": "icons/anti-materiel-rifle.svg",
       "cooldown": "480",
       "names": {
         "en": "ANTI-MATERIEL RIFLE",
@@ -818,6 +860,7 @@
     },
     {
       "id": "043",
+      "wikiPage": "M-105 Stalwart",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -827,7 +870,7 @@
         "up",
         "left"
       ],
-      "icon": "assets/icons/Stalwart.webp",
+      "icon": "icons/stalwart.svg",
       "cooldown": "480",
       "names": {
         "en": "STALWART",
@@ -838,6 +881,7 @@
     },
     {
       "id": "044",
+      "wikiPage": "EAT-17 Expendable Anti-Tank",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -846,7 +890,7 @@
         "up",
         "right"
       ],
-      "icon": "assets/icons/Expendable-Anti-tank.webp",
+      "icon": "icons/expendable-anti-tank.svg",
       "cooldown": "70",
       "names": {
         "en": "EXPENDABLE ANTI-TANK",
@@ -857,6 +901,7 @@
     },
     {
       "id": "045",
+      "wikiPage": "GR-8 Recoilless Rifle",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -865,7 +910,7 @@
         "right",
         "left"
       ],
-      "icon": "assets/icons/Recoilless-Rifle.webp",
+      "icon": "icons/recoilless-rifle.svg",
       "cooldown": "480",
       "names": {
         "en": "RECOILLESS RIFLE",
@@ -876,6 +921,7 @@
     },
     {
       "id": "046",
+      "wikiPage": "FLAM-40 Flamethrower",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -884,7 +930,7 @@
         "down",
         "up"
       ],
-      "icon": "assets/icons/Flamethrower.webp",
+      "icon": "icons/flamethrower.svg",
       "cooldown": "480",
       "names": {
         "en": "FLAMETHROWER",
@@ -895,6 +941,7 @@
     },
     {
       "id": "047",
+      "wikiPage": "AC-8 Autocannon",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -904,7 +951,7 @@
         "up",
         "right"
       ],
-      "icon": "assets/icons/Autocannon.webp",
+      "icon": "icons/autocannon.svg",
       "cooldown": "480",
       "names": {
         "en": "AUTOCANNON",
@@ -915,6 +962,7 @@
     },
     {
       "id": "048",
+      "wikiPage": "MG-206 Heavy Machine Gun",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -923,7 +971,7 @@
         "down",
         "down"
       ],
-      "icon": "assets/icons/Heavy-Machine-Gun.webp",
+      "icon": "icons/heavy-machine-gun.svg",
       "cooldown": "480",
       "names": {
         "en": "HEAVY MACHINE GUN",
@@ -934,6 +982,7 @@
     },
     {
       "id": "049",
+      "wikiPage": "RL-77 Airburst Rocket Launcher",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -942,7 +991,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Airburst-Rocket-Launcher.webp",
+      "icon": "icons/airburst-rocket-launcher.svg",
       "cooldown": "480",
       "names": {
         "en": "AIRBURST ROCKET LAUNCHER",
@@ -953,6 +1002,7 @@
     },
     {
       "id": "050",
+      "wikiPage": "RS-422 Railgun",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -962,7 +1012,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Railgun.webp",
+      "icon": "icons/railgun.svg",
       "cooldown": "480",
       "names": {
         "en": "RAILGUN",
@@ -973,6 +1023,7 @@
     },
     {
       "id": "051",
+      "wikiPage": "FAF-14 Spear",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -981,7 +1032,7 @@
         "down",
         "down"
       ],
-      "icon": "assets/icons/SPEAR-Launcher.webp",
+      "icon": "icons/spear.svg",
       "cooldown": "480",
       "names": {
         "en": "SPEAR",
@@ -992,6 +1043,7 @@
     },
     {
       "id": "052",
+      "wikiPage": "GL-21 Grenade Launcher",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1000,7 +1052,7 @@
         "left",
         "down"
       ],
-      "icon": "assets/icons/Grenade-Launcher.webp",
+      "icon": "icons/grenade-launcher.svg",
       "cooldown": "480",
       "names": {
         "en": "GRENADE LAUNCHER",
@@ -1011,6 +1063,7 @@
     },
     {
       "id": "053",
+      "wikiPage": "LAS-98 Laser Cannon",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1019,7 +1072,7 @@
         "up",
         "left"
       ],
-      "icon": "assets/icons/Laser-Cannon.webp",
+      "icon": "icons/laser-cannon.svg",
       "cooldown": "480",
       "names": {
         "en": "LASER CANNON",
@@ -1030,6 +1083,7 @@
     },
     {
       "id": "054",
+      "wikiPage": "ARC-3 Arc Thrower",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1039,7 +1093,7 @@
         "left",
         "left"
       ],
-      "icon": "assets/icons/Arc-Thrower.webp",
+      "icon": "icons/arc-thrower.svg",
       "cooldown": "480",
       "names": {
         "en": "ARC THROWER",
@@ -1050,6 +1104,7 @@
     },
     {
       "id": "055",
+      "wikiPage": "LAS-99 Quasar Cannon",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1058,7 +1113,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Quasar-Cannon.webp",
+      "icon": "icons/quasar-cannon.svg",
       "cooldown": "480",
       "names": {
         "en": "QUASAR CANNON",
@@ -1069,6 +1124,7 @@
     },
     {
       "id": "056",
+      "wikiPage": "EXO-45 Patriot Exosuit",
       "type": "weapons",
       "keysCode": [
         "left",
@@ -1079,7 +1135,7 @@
         "down",
         "down"
       ],
-      "icon": "assets/icons/Patriot-Exosuit.webp",
+      "icon": "icons/patriot-exosuit.svg",
       "cooldown": "600",
       "names": {
         "en": "PATRIOT EXOSUIT",
@@ -1090,6 +1146,7 @@
     },
     {
       "id": "057",
+      "wikiPage": "Super Earth Flag",
       "type": "mission",
       "keysCode": [
         "down",
@@ -1097,7 +1154,7 @@
         "down",
         "up"
       ],
-      "icon": "assets/icons/Super-earth-flag.webp",
+      "icon": "icons/super-earth-flag.svg",
       "cooldown": "1",
       "names": {
         "en": "SUPER EARTH FLAG",
@@ -1108,6 +1165,7 @@
     },
     {
       "id": "058",
+      "wikiPage": "MD-17 Anti-Tank Mines",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -1115,7 +1173,7 @@
         "up",
         "up"
       ],
-      "icon": "assets/icons/anti-tank-mines.webp",
+      "icon": "icons/anti-tank-mines.svg",
       "cooldown": "180",
       "names": {
         "en": "ANTI-TANK MINES",
@@ -1126,6 +1184,7 @@
     },
     {
       "id": "059",
+      "wikiPage": "Orbital Napalm Barrage",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -1135,7 +1194,7 @@
         "right",
         "up"
       ],
-      "icon": "assets/icons/Orbital-napalm-barrage.webp",
+      "icon": "icons/orbital-napalm-barrage.svg",
       "cooldown": "240",
       "names": {
         "en": "ORBITAL NAPALM BARRAGE",
@@ -1146,6 +1205,7 @@
     },
     {
       "id": "060",
+      "wikiPage": "MLS-4X Commando",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1154,7 +1214,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/mls-4x-commando.webp",
+      "icon": "icons/commando.svg",
       "cooldown": "120",
       "names": {
         "en": "MLS-4X COMMANDO",
@@ -1165,6 +1225,7 @@
     },
     {
       "id": "061",
+      "wikiPage": "EXO-49 Emancipator Exosuit",
       "type": "weapons",
       "keysCode": [
         "left",
@@ -1172,9 +1233,10 @@
         "right",
         "up",
         "left",
-        "down"
+        "down",
+        "up"
       ],
-      "icon": "assets/icons/emancipator-exosuit.webp",
+      "icon": "icons/emancipator-exosuit.svg",
       "cooldown": "600",
       "names": {
         "en": "EMANCIPATOR EXOSUIT",
@@ -1185,6 +1247,7 @@
     },
     {
       "id": "062",
+      "wikiPage": "TX-41 Sterilizer",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1193,7 +1256,7 @@
         "down",
         "left"
       ],
-      "icon": "assets/icons/sterilizer.webp",
+      "icon": "icons/sterilizer.svg",
       "cooldown": "480",
       "names": {
         "en": "TX-41 STERILIZER",
@@ -1204,6 +1267,7 @@
     },
     {
       "id": "063",
+      "wikiPage": "AX/TX-13 Dog Breath",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -1224,6 +1288,7 @@
     },
     {
       "id": "064",
+      "wikiPage": "StA-X3 W.A.S.P. Launcher",
       "type": "weapons",
       "keysCode": [
         "down",
@@ -1232,7 +1297,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/wasp-launcher.webp",
+      "icon": "icons/sta-x3-w-a-s-p-launcher.svg",
       "cooldown": "480",
       "names": {
         "en": "STA-X3 W.A.S.P. LAUNCHER",
@@ -1251,7 +1316,7 @@
         "down",
         "right"
       ],
-      "icon": "assets/icons/Orbital_Railcannon_Strike_Stratagem.webp",
+      "icon": "icons/orbital-railcannon-strike.svg",
       "cooldown": "210",
       "names": {
         "en": "ORBITAL RAILCANNON STRIKE",
@@ -1262,6 +1327,7 @@
     },
     {
       "id": "066",
+      "wikiPage": "M-102 Gunner FRV",
       "type": "weapons",
       "keysCode": [
         "left",
@@ -1283,6 +1349,7 @@
     },
     {
       "id": "067",
+      "wikiPage": "Orbital EMS Strike",
       "type": "orbital",
       "keysCode": [
         "right",
@@ -1290,7 +1357,7 @@
         "left",
         "down"
       ],
-      "icon": "assets/icons/Orbital_EMS_Strike_Stratagem_Icon.webp",
+      "icon": "icons/orbital-ems-strike.svg",
       "cooldown": "75",
       "names": {
         "en": "ORBITAL EMS STRIKE",
@@ -1301,6 +1368,7 @@
     },
     {
       "id": "068",
+      "wikiPage": "E/GL-21 Grenadier Battlement",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -1309,7 +1377,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/GL-21_Grenadier_Battlement_Stratagem_Icon.webp",
+      "icon": "icons/grenadier-battlement.svg",
       "cooldown": "120",
       "names": {
         "en": "E/GL-21 GRENADIER BATTLEMENT",
@@ -1328,7 +1396,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/GL-21_Grenadier_Battlement_Stratagem_Icon.webp",
+      "icon": "icons/grenadier-battlement.svg",
       "cooldown": "120",
       "names": {
         "en": "E/GL-21 GRENADIER BATTLEMENT",
@@ -1346,7 +1414,7 @@
         "up",
         "up"
       ],
-      "icon": "assets/icons/MD-17_Anti-Tank_Mines_Stratagem_Icon.webp",
+      "icon": "icons/anti-tank-mines.svg",
       "cooldown": "120",
       "names": {
         "en": "MD-17 ANTI-TANK MINES",
@@ -1357,6 +1425,7 @@
     },
     {
       "id": "071",
+      "wikiPage": "MD-8 Gas Mines",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -1364,7 +1433,7 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Gas_Minefield_Stratagem_Icon.webp",
+      "icon": "icons/gas-mine.svg",
       "cooldown": "120",
       "names": {
         "en": "MD-8 GAS MINES",
@@ -1375,6 +1444,7 @@
     },
     {
       "id": "072",
+      "wikiPage": "SH-51 Directional Shield",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -1384,7 +1454,7 @@
         "up",
         "up"
       ],
-      "icon": "assets/icons/SH-51_Directional_Shield_Stratagem_Icon.webp",
+      "icon": "icons/directional-shield.svg",
       "cooldown": "300",
       "names": {
         "en": "SH-51 DIRECTIONAL SHIELD",
@@ -1395,6 +1465,7 @@
     },
     {
       "id": "073",
+      "wikiPage": "E/AT-12 Anti-Tank Emplacement",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -1404,7 +1475,7 @@
         "right",
         "right"
       ],
-      "icon": "assets/icons/E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.webp",
+      "icon": "icons/anti-tank-emplacement.svg",
       "cooldown": "180",
       "names": {
         "en": "E/AT-12 ANTI-TANK EMPLACEMENT",
@@ -1415,6 +1486,7 @@
     },
     {
       "id": "074",
+      "wikiPage": "A/FLAM-40 Flame Sentry",
       "type": "defenses",
       "keysCode": [
         "down",
@@ -1424,7 +1496,7 @@
         "up",
         "up"
       ],
-      "icon": "assets/icons/A_FLAM-40_Flame_Sentry_Stratagem_Icon.webp",
+      "icon": "icons/flame-sentry.svg",
       "cooldown": "150",
       "names": {
         "en": "A/FLAM-40 FLAME SENTRY",
@@ -1435,6 +1507,7 @@
     },
     {
       "id": "075",
+      "wikiPage": "B-100 Portable Hellbomb",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -1454,6 +1527,7 @@
     },
     {
       "id": "076",
+      "wikiPage": "LIFT-860 Hover Pack",
       "type": "backpacks",
       "keysCode": [
         "down",
@@ -1463,13 +1537,554 @@
         "left",
         "right"
       ],
-      "icon": "assets/icons/Hover_Pack_Stratagem_Icon.webp",
+      "icon": "icons/hover-pack.svg",
       "cooldown": "480",
       "names": {
         "en": "LIFT-860 HOVER PACK",
         "es": "MOCHILA FLOTANTE LIFT-860",
         "pt": "MOCHILA FLUTUANTE LIFT-860",
         "ru": "РЕАКТИВНЫЙ РАНЕЦ LIFT-860"
+      }
+    },
+    {
+      "id": "077",
+      "wikiPage": "CQC-1 One True Flag",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "right",
+        "up"
+      ],
+      "icon": "icons/one-true-flag.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "CQC-1 One True Flag"
+      }
+    },
+    {
+      "id": "078",
+      "wikiPage": "AX/ARC-3 K-9",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "left"
+      ],
+      "icon": "",
+      "cooldown": "480",
+      "names": {
+        "en": "AX/ARC-3 K-9"
+      }
+    },
+    {
+      "id": "079",
+      "wikiPage": "GL-52 De-Escalator",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "right",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "icons/gl-52-de-escalator.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "GL-52 De-Escalator"
+      }
+    },
+    {
+      "id": "080",
+      "wikiPage": "A/LAS-98 Laser Sentry",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "up",
+        "right"
+      ],
+      "icon": "icons/laser-sentry.svg",
+      "cooldown": "150",
+      "names": {
+        "en": "A/LAS-98 Laser Sentry"
+      }
+    },
+    {
+      "id": "081",
+      "wikiPage": "LIFT-182 Warp Pack",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "icon": "icons/warp-pack.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "LIFT-182 Warp Pack"
+      }
+    },
+    {
+      "id": "082",
+      "wikiPage": "PLAS-45 Epoch",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "icons/epoch.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "PLAS-45 Epoch"
+      }
+    },
+    {
+      "id": "083",
+      "wikiPage": "MS-11 Solo Silo",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "down"
+      ],
+      "icon": "icons/solo-silo.svg",
+      "cooldown": "180",
+      "names": {
+        "en": "MS-11 Solo Silo"
+      }
+    },
+    {
+      "id": "084",
+      "wikiPage": "EAT-700 Expendable Napalm",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "left",
+        "up",
+        "left"
+      ],
+      "icon": "icons/expendable-napalm.svg",
+      "cooldown": "140",
+      "names": {
+        "en": "EAT-700 Expendable Napalm"
+      }
+    },
+    {
+      "id": "085",
+      "wikiPage": "S-11 Speargun",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "right",
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "icon": "icons/speargun.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "S-11 Speargun"
+      }
+    },
+    {
+      "id": "086",
+      "wikiPage": "M-1000 Maxigun",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "down",
+        "up",
+        "up"
+      ],
+      "icon": "icons/maxigun.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "M-1000 Maxigun"
+      }
+    },
+    {
+      "id": "087",
+      "wikiPage": "CQC-9 Defoliation Tool",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "right",
+        "down"
+      ],
+      "icon": "icons/defoliation-tool.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "CQC-9 Defoliation Tool"
+      }
+    },
+    {
+      "id": "088",
+      "wikiPage": "AX/FLAM-75 Hot Dog",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "left",
+        "left"
+      ],
+      "icon": "",
+      "cooldown": "480",
+      "names": {
+        "en": "AX/FLAM-75 Hot Dog"
+      }
+    },
+    {
+      "id": "089",
+      "wikiPage": "B/MD C4 Pack",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "right",
+        "up",
+        "up",
+        "right",
+        "up"
+      ],
+      "icon": "",
+      "cooldown": "480",
+      "names": {
+        "en": "B/MD C4 Pack"
+      }
+    },
+    {
+      "id": "090",
+      "wikiPage": "EAT-411 Leveller",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "left",
+        "up",
+        "down"
+      ],
+      "icon": "",
+      "cooldown": "140",
+      "names": {
+        "en": "EAT-411 Leveller"
+      }
+    },
+    {
+      "id": "091",
+      "wikiPage": "CQC-20 Breaching Hammer",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "left",
+        "up"
+      ],
+      "icon": "",
+      "cooldown": "480",
+      "names": {
+        "en": "CQC-20 Breaching Hammer"
+      }
+    },
+    {
+      "id": "092",
+      "wikiPage": "GL-28 Belt-Fed Grenade Launcher",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "up",
+        "up"
+      ],
+      "icon": "",
+      "cooldown": "480",
+      "names": {
+        "en": "GL-28 Belt-Fed Grenade Launcher"
+      }
+    },
+    {
+      "id": "093",
+      "wikiPage": "TD-220 Bastion MK XVI",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "down",
+        "up"
+      ],
+      "icon": "icons/bastion-mk-xvi.svg",
+      "cooldown": "780",
+      "names": {
+        "en": "TD-220 Bastion MK XVI"
+      }
+    },
+    {
+      "id": "094",
+      "wikiPage": "A/GM-17 Gas Mortar Sentry",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
+      "icon": "icons/gas-mortar-sentry.svg",
+      "cooldown": "180",
+      "names": {
+        "en": "A/GM-17 Gas Mortar Sentry"
+      }
+    },
+    {
+      "id": "095",
+      "wikiPage": "B/FLAM-80 Cremator",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "right",
+        "down",
+        "up",
+        "up"
+      ],
+      "icon": "icons/cremator.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "B/FLAM-80 Cremator"
+      }
+    },
+    {
+      "id": "096",
+      "wikiPage": "MGX-42 Bullet Storm",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
+      "icon": "icons/bullet-storm.svg",
+      "cooldown": "70",
+      "names": {
+        "en": "MGX-42 Bullet Storm"
+      }
+    },
+    {
+      "id": "097",
+      "wikiPage": "EXO-51 Lumberer Exosuit",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "right",
+        "left",
+        "up"
+      ],
+      "icon": "icons/lumberer-exosuit.svg",
+      "cooldown": "420",
+      "names": {
+        "en": "EXO-51 Lumberer Exosuit"
+      }
+    },
+    {
+      "id": "098",
+      "wikiPage": "EXO-55 Breakthrough Exosuit",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "left",
+        "right",
+        "down",
+        "up"
+      ],
+      "icon": "icons/breakthrough-exosuit.svg",
+      "cooldown": "420",
+      "names": {
+        "en": "EXO-55 Breakthrough Exosuit"
+      }
+    },
+    {
+      "id": "099",
+      "wikiPage": "M-104 Incinerator FRV",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "left",
+        "down",
+        "up",
+        "up"
+      ],
+      "icon": "icons/incinerator-frv.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "M-104 Incinerator FRV"
+      }
+    },
+    {
+      "id": "100",
+      "wikiPage": "M-103 Supply FRV",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "left",
+        "left",
+        "down",
+        "up",
+        "right"
+      ],
+      "icon": "icons/supply-frv.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "M-103 Supply FRV"
+      }
+    },
+    {
+      "id": "101",
+      "wikiPage": "40-K Meltagun",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "left",
+        "down"
+      ],
+      "icon": "icons/40-k-meltagun.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "40-K Meltagun"
+      }
+    },
+    {
+      "id": "102",
+      "wikiPage": "Eagle Gas Airstrike",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "left",
+        "right"
+      ],
+      "icon": "",
+      "cooldown": "15",
+      "names": {
+        "en": "Eagle Gas Airstrike"
+      }
+    },
+    {
+      "id": "103",
+      "wikiPage": "TD-110 Maelstrom",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "icons/td-110-maelstrom.svg",
+      "cooldown": "780",
+      "names": {
+        "en": "TD-110 Maelstrom"
+      }
+    },
+    {
+      "id": "104",
+      "wikiPage": "LAS-44 Nova",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "down",
+        "down"
+      ],
+      "icon": "icons/las-44-nova.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "LAS-44 Nova"
+      }
+    },
+    {
+      "id": "105",
+      "wikiPage": "AMW-20 Apex",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "left"
+      ],
+      "icon": "icons/amw-20-apex.svg",
+      "cooldown": "480",
+      "names": {
+        "en": "AMW-20 Apex"
+      }
+    },
+    {
+      "id": "106",
+      "wikiPage": "Orbital Confetti",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "down",
+        "down",
+        "up",
+        "up",
+        "down",
+        "down",
+        "up",
+        "up"
+      ],
+      "icon": "",
+      "cooldown": "80",
+      "names": {
+        "en": "Orbital Confetti"
       }
     }
   ]
