@@ -18,10 +18,10 @@
       "icon": "icons/reinforce.svg",
       "cooldown": "1",
       "names": {
-        "en": "REINFORCEMENT",
-        "es": "REFUERZO",
-        "pt": "REFORÇO",
-        "ru": "ПОДКРЕПЛЕНИЕ"
+        "en": "Reinforcement",
+        "es": "Refuerzo",
+        "pt": "Reforço",
+        "ru": "Подкрепление"
       }
     },
     {
@@ -38,10 +38,10 @@
       "icon": "icons/sos-beacon.svg",
       "cooldown": "1",
       "names": {
-        "en": "S.O.S BEACON",
-        "es": "BALIZA DE S.O.S",
-        "pt": "BALIZA S.O.S",
-        "ru": "S.O.S МАЯК"
+        "en": "S.O.S Beacon",
+        "es": "Baliza de S.O.S",
+        "pt": "Baliza S.O.S",
+        "ru": "S.O.S маяк"
       }
     },
     {
@@ -58,10 +58,10 @@
       "icon": "icons/resupply.svg",
       "cooldown": "180",
       "names": {
-        "en": "RESUPPLY",
-        "es": "REABASTECIMIENTOS",
-        "pt": "REABASTECIMENTO",
-        "ru": "ЯЩИК БРОЕПРИПАСОВ"
+        "en": "Resupply",
+        "es": "Reabastecimientos",
+        "pt": "Reabastecimento",
+        "ru": "Ящик боеприпасов"
       }
     },
     {
@@ -82,10 +82,10 @@
       "icon": "icons/hellbomb.svg",
       "cooldown": "30",
       "names": {
-        "en": "HELL BOMB",
-        "es": "BOMBA HELL",
-        "pt": "BOMBA INFERNAL",
-        "ru": "ЯДЕРНАЯ БОМБА"
+        "en": "Hell Bomb",
+        "es": "Bomba Hell",
+        "pt": "Bomba infernal",
+        "ru": "Ядерная бомба"
       }
     },
     {
@@ -102,10 +102,10 @@
       "icon": "icons/seaf-artillery.svg",
       "cooldown": "11",
       "names": {
-        "en": "SEAF ARTILLERY",
-        "es": "ARTILLERÍA SEAF",
-        "pt": "ARTILHARIA SEAF",
-        "ru": "СТАЦИОНАРНАЯ АРТИЛЛЕРИЯ"
+        "en": "SEAF Artillery",
+        "es": "Artillería SEAF",
+        "pt": "Artilharia SEAF",
+        "ru": "Стационарная артиллерия"
       }
     },
     {
@@ -123,10 +123,10 @@
       "icon": "icons/eagle-rearm.svg",
       "cooldown": "150",
       "names": {
-        "en": "EAGLE REARM",
-        "es": "RECARGA DE ÁGUILA",
-        "pt": "RECARGA DE ÁGUIA",
-        "ru": "ОРЁЛ ПЕРЕЗАРЯДКА"
+        "en": "Eagle Rearm",
+        "es": "Recarga de águila",
+        "pt": "Recarga de águia",
+        "ru": "Орёл перезарядка"
       }
     },
     {
@@ -142,10 +142,10 @@
       "icon": "icons/eagle-strafing-run.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE STRAFING RUN",
-        "es": "BARRIDA DE AMETRALLADORA DE ÁGUILA",
-        "pt": "VARREDURA DE METRALHADORA DE ÁGUIA",
-        "ru": "ОРЁЛ БРЕЮЩИЙ ПОЛЁТ"
+        "en": "Eagle Strafing Run",
+        "es": "Barrida de ametralladora de águila",
+        "pt": "Varredura de metralhadora de águia",
+        "ru": "Орёл бреющий полёт"
       }
     },
     {
@@ -162,10 +162,10 @@
       "icon": "icons/eagle-airstrike.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE AIR STRIKE",
-        "es": "ATAQUE AÉREO DE ÁGUILA",
-        "pt": "ATAQUE AÉREO DE ÁGUIA",
-        "ru": "ОРЁЛ ВОЗДУШНЫЙ УДАР"
+        "en": "Eagle Air Strike",
+        "es": "Ataque aéreo de águila",
+        "pt": "Ataque aéreo de águia",
+        "ru": "Орёл воздушный удар"
       }
     },
     {
@@ -183,10 +183,10 @@
       "icon": "icons/eagle-cluster-bomb.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE CLUSTER BOMB",
-        "es": "BOMBA DE RACIMO DE ÁGUILA",
-        "pt": "BOMBA DE FRAGMENTAÇÃO DE ÁGUIA",
-        "ru": "ОРЁЛ КЛАСТЕРНЫЙ УДАР"
+        "en": "Eagle Cluster Bomb",
+        "es": "Bomba de racimo de águila",
+        "pt": "Bomba de fragmentação de águia",
+        "ru": "Орёл кластерный удар"
       }
     },
     {
@@ -203,10 +203,10 @@
       "icon": "icons/eagle-napalm-airstrike.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE NAPALM AIR STRIKE",
-        "es": "ATAQUE AÉREO DE NAPALM DE ÁGUILA",
-        "pt": "ATAQUE AÉREO DE NAPALM DE ÁGUIA",
-        "ru": "ОРЁЛ УДАР НАПАЛМОМ"
+        "en": "Eagle Napalm Air Strike",
+        "es": "Ataque aéreo de napalm de águila",
+        "pt": "Ataque aéreo de napalm de águia",
+        "ru": "Орёл удар напалмом"
       }
     },
     {
@@ -223,10 +223,10 @@
       "icon": "icons/eagle-smoke-strike.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE SMOKE ATTACK",
-        "es": "ATAQUE DE HUMO DE ÁGUILA",
-        "pt": "ATAQUE DE FUMAÇA DE ÁGUIA",
-        "ru": "ОРЁЛ ДЫМОВАЯ ЗАВЕСА"
+        "en": "Eagle Smoke Attack",
+        "es": "Ataque de humo de águila",
+        "pt": "Ataque de fumaça de águia",
+        "ru": "Орёл дымовая завеса"
       }
     },
     {
@@ -243,10 +243,10 @@
       "icon": "icons/eagle-110mm-rocket-pods.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE 110 MM ROCKET PODS",
-        "es": "CÁPSULAS DE COHETES DE 110 MM DE ÁGUILA",
-        "pt": "CÁPSULAS DE FOGUETES DE 110 MM DE ÁGUIA",
-        "ru": "ОРЁЛ 110 MM РАКЕТНЫЙ УДАР"
+        "en": "Eagle 110 mm Rocket Pods",
+        "es": "Cápsulas de cohetes de 110 mm de águila",
+        "pt": "Cápsulas de foguetes de 110 mm de águia",
+        "ru": "Орёл 110 мм ракетный удар"
       }
     },
     {
@@ -264,10 +264,10 @@
       "icon": "icons/eagle-500kg-bomb.svg",
       "cooldown": "8",
       "names": {
-        "en": "EAGLE 500 KG BOMB",
-        "es": "BOMBA DE 500 KG DE ÁGUILA",
-        "pt": "BOMBA DE 500 KG DE ÁGUIA",
-        "ru": "ОРЁЛ 500 KГ БОМБА"
+        "en": "Eagle 500 kg Bomb",
+        "es": "Bomba de 500 kg de águila",
+        "pt": "Bomba de 500 kg de águia",
+        "ru": "Орёл 500 кг бомба"
       }
     },
     {
@@ -285,10 +285,10 @@
       "icon": "icons/jump-pack.svg",
       "cooldown": "480",
       "names": {
-        "en": "JUMP PACK",
-        "es": "MOCHILA DE SALTO",
-        "pt": "MOCHILA DE SALTO",
-        "ru": "ПРЫЖКОВЫЙ РАНЕЦ"
+        "en": "Jump Pack",
+        "es": "Mochila de salto",
+        "pt": "Mochila de salto",
+        "ru": "Прыжковый ранец"
       }
     },
     {
@@ -307,10 +307,10 @@
       "icon": "icons/supply-pack.svg",
       "cooldown": "480",
       "names": {
-        "en": "SUPPLY PACK",
-        "es": "MOCHILA DE REABASTECIMIENTO",
-        "pt": "MOCHILA DE ABASTECIMENTO",
-        "ru": "РЮКЗАК С БОЕПРИПАСАМИ"
+        "en": "Supply Pack",
+        "es": "Mochila de reabastecimiento",
+        "pt": "Mochila de abastecimento",
+        "ru": "Рюкзак с боеприпасами"
       }
     },
     {
@@ -329,10 +329,10 @@
       "icon": "icons/guard-dog-rover.svg",
       "cooldown": "480",
       "names": {
-        "en": "ROVER GUARD DOG",
-        "es": "ROVER PERRO GUARDIÁN",
-        "pt": "ROVER CÃO DE GUARDA",
-        "ru": "ЛАЗЕРНЫЙ СТОРОЖЕВОЙ ПЕС"
+        "en": "Rover Guard Dog",
+        "es": "Rover perro guardián",
+        "pt": "Rover cão de guarda",
+        "ru": "Лазерный сторожевой пес"
       }
     },
     {
@@ -351,10 +351,10 @@
       "icon": "icons/ballistic-shield-backpack.svg",
       "cooldown": "300",
       "names": {
-        "en": "BALLISTIC SHIELD PACK",
-        "es": "MOCHILA DE ESCUDO BALÍSTICO",
-        "pt": "MOCHILA DE ESCUDO BALÍSTICO",
-        "ru": "БАЛЛИСТИЧЕСКИЙ ЩИТ"
+        "en": "Ballistic Shield Pack",
+        "es": "Mochila de escudo balístico",
+        "pt": "Mochila de escudo balístico",
+        "ru": "Баллистический щит"
       }
     },
     {
@@ -373,10 +373,10 @@
       "icon": "icons/shield-generator-pack.svg",
       "cooldown": "480",
       "names": {
-        "en": "SHIELD GENERATOR PACK",
-        "es": "MOCHILA GENERADORA DE ESCUDO",
-        "pt": "MOCHILA GERADORA DE ESCUDO",
-        "ru": "ГЕНЕРАТОР ЩИТА"
+        "en": "Shield Generator Pack",
+        "es": "Mochila generadora de escudo",
+        "pt": "Mochila geradora de escudo",
+        "ru": "Генератор щита"
       }
     },
     {
@@ -395,10 +395,10 @@
       "icon": "icons/guard-dog.svg",
       "cooldown": "480",
       "names": {
-        "en": "GUARD DOG",
-        "es": "PERRO GUARDIÁN",
-        "pt": "CÃO DE GUARDA",
-        "ru": "СТОРОЖЕВОЙ ПЕС"
+        "en": "Guard Dog",
+        "es": "Perro guardián",
+        "pt": "Cão de guarda",
+        "ru": "Сторожевой пес"
       }
     },
     {
@@ -417,10 +417,10 @@
       "icon": "icons/hmg-emplacement.svg",
       "cooldown": "180",
       "names": {
-        "en": "HGM PLACEMENT",
-        "es": "EMPLAZAMIENTO AP",
-        "pt": "EMPLACAMENTO AP",
-        "ru": "ОГНЕВАЯ ПОЗИЦИЯ ТЯЖ.ПУЛЕМЕТ"
+        "en": "HGM Placement",
+        "es": "Emplazamiento AP",
+        "pt": "Emplacamento AP",
+        "ru": "Огневая позиция тяж.пулемет"
       }
     },
     {
@@ -439,10 +439,10 @@
       "icon": "icons/shield-generator-relay.svg",
       "cooldown": "90",
       "names": {
-        "en": "SHIELD GENERATOR RELAY",
-        "es": "RELÉ GENERADOR DE ESCUDO",
-        "pt": "RELE GERADOR DE ESCUDO",
-        "ru": "СТАЦИОНАРНЫЙ ГЕНЕРАТОР ЩИТА"
+        "en": "Shield Generator Relay",
+        "es": "Relé generador de escudo",
+        "pt": "Rele gerador de escudo",
+        "ru": "Стационарный генератор щита"
       }
     },
     {
@@ -461,10 +461,10 @@
       "icon": "icons/tesla-tower.svg",
       "cooldown": "150",
       "names": {
-        "en": "TESLA TOWER",
-        "es": "TORRE TESLA",
-        "pt": "TORRE TESLA",
-        "ru": "ТЕСЛА-БАШНЯ"
+        "en": "Tesla Tower",
+        "es": "Torre Tesla",
+        "pt": "Torre Tesla",
+        "ru": "Тесла-башня"
       }
     },
     {
@@ -481,10 +481,10 @@
       "icon": "icons/anti-personnel-minefield.svg",
       "cooldown": "180",
       "names": {
-        "en": "ANTIPERSONNEL MINEFIELD",
-        "es": "CAMPO MINADO ANTIPERSONAL",
-        "pt": "CAMPO MINADO ANTIPESSOAL",
-        "ru": "ПРОТИВОПЕХОТНЫЕ МИНЫ"
+        "en": "Antipersonnel Minefield",
+        "es": "Campo minado antipersonal",
+        "pt": "Campo minado antipessoal",
+        "ru": "Противопехотные мины"
       }
     },
     {
@@ -501,10 +501,10 @@
       "icon": "icons/incendiary-mines.svg",
       "cooldown": "180",
       "names": {
-        "en": "INCENDIARY MINES",
-        "es": "MINAS INCENDIARIAS",
-        "pt": "MINAS INCENDIÁRIAS",
-        "ru": "ЗАЖИГАТЕЛЬНЫЕ МИНЫ"
+        "en": "Incendiary Mines",
+        "es": "Minas incendiarias",
+        "pt": "Minas incendiárias",
+        "ru": "Зажигательные мины"
       }
     },
     {
@@ -522,10 +522,10 @@
       "icon": "icons/machine-gun-sentry.svg",
       "cooldown": "120",
       "names": {
-        "en": "MACHINE GUN SENTRY",
-        "es": "VIGÍA AMETRALLADORA",
-        "pt": "SENTINELA METRALHADORA",
-        "ru": "ПУЛЕМЁТНАЯ ТУРЕЛЬ"
+        "en": "Machine Gun Sentry",
+        "es": "Vigía ametralladora",
+        "pt": "Sentinela metralhadora",
+        "ru": "Пулемётная турель"
       }
     },
     {
@@ -542,10 +542,10 @@
       "icon": "icons/gatling-sentry.svg",
       "cooldown": "180",
       "names": {
-        "en": "GATLING SENTRY",
-        "es": "VIGÍA GATLING",
-        "pt": "SENTINELA GATLING",
-        "ru": "ТУРЕЛЬ ГАТЛИНГА"
+        "en": "Gatling Sentry",
+        "es": "Vigía Gatling",
+        "pt": "Sentinela Gatling",
+        "ru": "Турель Гатлинга"
       }
     },
     {
@@ -563,10 +563,10 @@
       "icon": "icons/mortar-sentry.svg",
       "cooldown": "180",
       "names": {
-        "en": "MORTAR SENTRY",
-        "es": "VIGÍA MORTERO",
-        "pt": "SENTINELA MORTEIRO",
-        "ru": "МИНОМЁТНАЯ ТУРЕЛЬ"
+        "en": "Mortar Sentry",
+        "es": "Vigía mortero",
+        "pt": "Sentinela morteiro",
+        "ru": "Миномётная турель"
       }
     },
     {
@@ -585,10 +585,10 @@
       "icon": "icons/autocannon-sentry.svg",
       "cooldown": "180",
       "names": {
-        "en": "AUTOCANNON SENTRY",
-        "es": "VIGÍA DE CAÑÓN AUTOMÁTICO",
-        "pt": "SENTINELA CANHÃO AUTOMÁTICO",
-        "ru": "ТУРЕЛЬ С АВТОПУШКОЙ"
+        "en": "Autocannon Sentry",
+        "es": "Vigía de cañón automático",
+        "pt": "Sentinela canhão automático",
+        "ru": "Турель с автопушкой"
       }
     },
     {
@@ -606,10 +606,10 @@
       "icon": "icons/rocket-sentry.svg",
       "cooldown": "180",
       "names": {
-        "en": "ROCKET SENTRY",
-        "es": "VIGÍA DE COHETES",
-        "pt": "SENTINELA FOGUETES",
-        "ru": "РАКЕТНАЯ ТУРЕЛЬ"
+        "en": "Rocket Sentry",
+        "es": "Vigía de cohetes",
+        "pt": "Sentinela foguetes",
+        "ru": "Ракетная турель"
       }
     },
     {
@@ -627,10 +627,10 @@
       "icon": "icons/ems-mortar-sentry.svg",
       "cooldown": "180",
       "names": {
-        "en": "OEM MORTAR SENTRY",
-        "es": "VIGÍA MORTERO OEM",
-        "pt": "SENTINELA MORTEIRO OEM",
-        "ru": "ЭМИ-МИНОМЕТНАЯ ТУРЕЛЬ"
+        "en": "OEM Mortar Sentry",
+        "es": "Vigía mortero OEM",
+        "pt": "Sentinela morteiro OEM",
+        "ru": "ЭМИ-минометная турель"
       }
     },
     {
@@ -648,10 +648,10 @@
       "icon": "icons/orbital-gatling-barrage.svg",
       "cooldown": "70",
       "names": {
-        "en": "ORBITAL GATLING STRIKE",
-        "es": "DESCARGA GATLING ORBITAL",
-        "pt": "DISPARO GATLING ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ЗАЛП ГАТЛИНГА"
+        "en": "Orbital Gatling Strike",
+        "es": "Descarga Gatling orbital",
+        "pt": "Disparo Gatling orbital",
+        "ru": "Орбитальный залп Гатлинга"
       }
     },
     {
@@ -667,10 +667,10 @@
       "icon": "icons/orbital-airburst-strike.svg",
       "cooldown": "100",
       "names": {
-        "en": "ORBITAL AIRBURST ATTACK",
-        "es": "ATAQUE DE EXPLOSIÓN AÉREA ORBITAL",
-        "pt": "ATAQUE DE EXPLOSÃO AÉREA ORBITAL",
-        "ru": "ОРБИТАЛЬНАЯ ВОЗДУШНАЯ БОМБА"
+        "en": "Orbital Airburst Attack",
+        "es": "Ataque de explosión aérea orbital",
+        "pt": "Ataque de explosão aérea orbital",
+        "ru": "Орбитальная воздушная бомба"
       }
     },
     {
@@ -689,10 +689,10 @@
       "icon": "icons/orbital-120mm-he-barrage.svg",
       "cooldown": "180",
       "names": {
-        "en": "ORBITAL 120 MM AE STRIKE",
-        "es": "DESCARGA AE DE 120 MM ORBITAL",
-        "pt": "DISPARO AE DE 120 MM ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ЗАЛП 120 MM ОФ"
+        "en": "Orbital 120 mm AE Strike",
+        "es": "Descarga AE de 120 mm orbital",
+        "pt": "Disparo AE de 120 mm orbital",
+        "ru": "Орбитальный залп 120 мм ОФ"
       }
     },
     {
@@ -712,10 +712,10 @@
       "icon": "icons/orbital-380mm-he-barrage.svg",
       "cooldown": "240",
       "names": {
-        "en": "ORBITAL 380 MM AE STRIKE",
-        "es": "DESCARGA AE DE 380 MM ORBITAL",
-        "pt": "DISPARO AE DE 380 MM ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ЗАЛП 380 MM ОФ"
+        "en": "Orbital 380 mm AE Strike",
+        "es": "Descarga AE de 380 mm orbital",
+        "pt": "Disparo AE de 380 mm orbital",
+        "ru": "Орбитальный залп 380 мм ОФ"
       }
     },
     {
@@ -734,10 +734,10 @@
       "icon": "icons/orbital-walking-barrage.svg",
       "cooldown": "240",
       "names": {
-        "en": "ORBITAL WALKING BARRAGE",
-        "es": "DESCARGA DE CAMINANTE ORBITAL",
-        "pt": "DISPARO DE ANDADOR ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ОГНЕВОЙ ВАЛ"
+        "en": "Orbital Walking Barrage",
+        "es": "Descarga de caminante orbital",
+        "pt": "Disparo de andador orbital",
+        "ru": "Орбитальный огневой вал"
       }
     },
     {
@@ -755,10 +755,10 @@
       "icon": "icons/orbital-laser.svg",
       "cooldown": "300",
       "names": {
-        "en": "ORBITAL LASER",
-        "es": "LÁSER ORBITAL",
-        "pt": "LASER ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ЛАЗЕР"
+        "en": "Orbital Laser",
+        "es": "Láser orbital",
+        "pt": "Laser orbital",
+        "ru": "Орбитальный лазер"
       }
     },
     {
@@ -776,10 +776,10 @@
       "icon": "icons/orbital-railcannon-strike.svg",
       "cooldown": "210",
       "names": {
-        "en": "ORBITAL RAILGUN STRIKE",
-        "es": "ATAQUE CON CAÑÓN DE RIEL ORBITAL",
-        "pt": "ATAQUE COM CANHÃO DE RIEL ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ РЕЛЬСОТРОННЫЙ ЗАЛП"
+        "en": "Orbital Railgun Strike",
+        "es": "Ataque con cañón de riel orbital",
+        "pt": "Ataque com canhão de riel orbital",
+        "ru": "Орбитальный рельсотронный залп"
       }
     },
     {
@@ -795,10 +795,10 @@
       "icon": "icons/orbital-precision-strike.svg",
       "cooldown": "90",
       "names": {
-        "en": "ORBITAL PRECISION STRIKE",
-        "es": "ATAQUE DE PRECISIÓN ORBITAL",
-        "pt": "ATAQUE DE PRECISÃO ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ВЫСОКОТОЧНЫЙ УДАР"
+        "en": "Orbital Precision Strike",
+        "es": "Ataque de precisión orbital",
+        "pt": "Ataque de precisão orbital",
+        "ru": "Орбитальный высокоточный удар"
       }
     },
     {
@@ -815,10 +815,10 @@
       "icon": "icons/orbital-gas-strike.svg",
       "cooldown": "75",
       "names": {
-        "en": "ORBITAL GAS ATTACK",
-        "es": "ATAQUE DE GAS ORBITAL",
-        "pt": "ATAQUE DE GÁS ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ГАЗОВЫЙ УДАР"
+        "en": "Orbital Gas Attack",
+        "es": "Ataque de gas orbital",
+        "pt": "Ataque de gás orbital",
+        "ru": "Орбитальный газовый удар"
       }
     },
     {
@@ -833,10 +833,10 @@
       "icon": "assets/icons/Orbital-EMS-Strike.webp",
       "cooldown": "75",
       "names": {
-        "en": "ORBITAL OEM ATTACK",
-        "es": "ATAQUE DE OEM ORBITAL",
-        "pt": "ATAQUE OEM ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ ЭМИ-УДАР"
+        "en": "Orbital OEM Attack",
+        "es": "Ataque de OEM orbital",
+        "pt": "Ataque OEM orbital",
+        "ru": "Орбитальный ЭМИ-удар"
       },
       "deprecated": true
     },
@@ -854,10 +854,10 @@
       "icon": "icons/orbital-smoke-strike.svg",
       "cooldown": "100",
       "names": {
-        "en": "ORBITAL SMOKE ATTACK",
-        "es": "ATAQUE DE HUMO ORBITAL",
-        "pt": "ATAQUE DE FUMAÇA ORBITAL",
-        "ru": "ОРБИТАЛЬНАЯ ДЫМОВАЯ ЗАВЕСА"
+        "en": "Orbital Smoke Attack",
+        "es": "Ataque de humo orbital",
+        "pt": "Ataque de fumaça orbital",
+        "ru": "Орбитальная дымовая завеса"
       }
     },
     {
@@ -875,10 +875,10 @@
       "icon": "icons/machine-gun.svg",
       "cooldown": "480",
       "names": {
-        "en": "MACHINE GUN",
-        "es": "AMETRALLADORA",
-        "pt": "METRALHADORA",
-        "ru": "ПУЛЕМЕТ"
+        "en": "Machine Gun",
+        "es": "Ametralladora",
+        "pt": "Metralhadora",
+        "ru": "Пулемет"
       }
     },
     {
@@ -896,10 +896,10 @@
       "icon": "icons/anti-materiel-rifle.svg",
       "cooldown": "480",
       "names": {
-        "en": "ANTI-MATERIEL RIFLE",
-        "es": "RIFLE ANTIEQUIPAMIENTO",
-        "pt": "RIFLE ANTI-EQUIPAMENTO",
-        "ru": "КРУПНОКАЛИБЕРНЫЯ ВИНТОВКА"
+        "en": "Anti-Materiel Rifle",
+        "es": "Rifle antiequipamiento",
+        "pt": "Rifle anti-equipamento",
+        "ru": "Крупнокалиберная винтовка"
       }
     },
     {
@@ -918,10 +918,10 @@
       "icon": "icons/stalwart.svg",
       "cooldown": "480",
       "names": {
-        "en": "STALWART",
-        "es": "INCONDICIONAL",
-        "pt": "INCONDICIONAL",
-        "ru": "ДОБЛЕСТЬ"
+        "en": "Stalwart",
+        "es": "Incondicional",
+        "pt": "Incondicional",
+        "ru": "Доблесть"
       }
     },
     {
@@ -939,10 +939,10 @@
       "icon": "icons/expendable-anti-tank.svg",
       "cooldown": "70",
       "names": {
-        "en": "EXPENDABLE ANTI-TANK",
-        "es": "ANTITANQUE DESECHABLE",
-        "pt": "ANTITANQUE DESCARTÁVEL",
-        "ru": "ОДНОРАЗОВЫЙ БРОНЕБОЙ"
+        "en": "Expendable Anti-Tank",
+        "es": "Antitanque desechable",
+        "pt": "Antitanque descartável",
+        "ru": "Одноразовый бронебой"
       }
     },
     {
@@ -960,10 +960,10 @@
       "icon": "icons/recoilless-rifle.svg",
       "cooldown": "480",
       "names": {
-        "en": "RECOILLESS RIFLE",
-        "es": "RIFLE SIN RETROCESO",
-        "pt": "RIFLE SEM RECÚO",
-        "ru": "БЕЗОТКАТНАЯ ВИНТОВКА"
+        "en": "Recoilless Rifle",
+        "es": "Rifle sin retroceso",
+        "pt": "Rifle sem recúo",
+        "ru": "Безоткатная винтовка"
       }
     },
     {
@@ -981,10 +981,10 @@
       "icon": "icons/flamethrower.svg",
       "cooldown": "480",
       "names": {
-        "en": "FLAMETHROWER",
-        "es": "LANZALLAMAS",
-        "pt": "LANÇA-CHAMAS",
-        "ru": "ОГНЕМЁТ"
+        "en": "Flamethrower",
+        "es": "Lanzallamas",
+        "pt": "Lança-chamas",
+        "ru": "Огнемёт"
       }
     },
     {
@@ -1003,10 +1003,10 @@
       "icon": "icons/autocannon.svg",
       "cooldown": "480",
       "names": {
-        "en": "AUTOCANNON",
-        "es": "CAÑÓN AUTOMÁTICO",
-        "pt": "CANHÃO AUTOMÁTICO",
-        "ru": "АВТОПУШКА"
+        "en": "Autocannon",
+        "es": "Cañón automático",
+        "pt": "Canhão automático",
+        "ru": "Автопушка"
       }
     },
     {
@@ -1024,10 +1024,10 @@
       "icon": "icons/heavy-machine-gun.svg",
       "cooldown": "480",
       "names": {
-        "en": "HEAVY MACHINE GUN",
-        "es": "AMETRALLADORA PESADA",
-        "pt": "METRALHADORA PESADA",
-        "ru": "ТЯЖЕЛЫЙ ПУЛЕМЕТ"
+        "en": "Heavy Machine Gun",
+        "es": "Ametralladora pesada",
+        "pt": "Metralhadora pesada",
+        "ru": "Тяжелый пулемет"
       }
     },
     {
@@ -1045,10 +1045,10 @@
       "icon": "icons/airburst-rocket-launcher.svg",
       "cooldown": "480",
       "names": {
-        "en": "AIRBURST ROCKET LAUNCHER",
-        "es": "LANZACOHETES DE ESTALLIDO AÉREO",
-        "pt": "LANÇADOR DE FOGUETES DE EXPLOSÃO AÉREA",
-        "ru": "РАКЕТНИЦА С ПОДРЫВОМ ВОЗДУХЕ"
+        "en": "Airburst Rocket Launcher",
+        "es": "Lanzacohetes de estallido aéreo",
+        "pt": "Lançador de foguetes de explosão aérea",
+        "ru": "Ракетница с подрывом в воздухе"
       }
     },
     {
@@ -1067,10 +1067,10 @@
       "icon": "icons/railgun.svg",
       "cooldown": "480",
       "names": {
-        "en": "RAILGUN",
-        "es": "ARMA DE RIEL",
-        "pt": "CANHÃO DE RIEL",
-        "ru": "РЕЛЬСОТРОН"
+        "en": "Railgun",
+        "es": "Arma de riel",
+        "pt": "Canhão de riel",
+        "ru": "Рельсотрон"
       }
     },
     {
@@ -1088,10 +1088,10 @@
       "icon": "icons/spear.svg",
       "cooldown": "480",
       "names": {
-        "en": "SPEAR",
-        "es": "LANZA",
-        "pt": "LANÇA",
-        "ru": "КОПЬЕ"
+        "en": "Spear",
+        "es": "Lanza",
+        "pt": "Lança",
+        "ru": "Копье"
       }
     },
     {
@@ -1109,10 +1109,10 @@
       "icon": "icons/grenade-launcher.svg",
       "cooldown": "480",
       "names": {
-        "en": "GRENADE LAUNCHER",
-        "es": "LANZAGRANADAS",
-        "pt": "LANÇA-GRANADAS",
-        "ru": "ГРАНАТОМЕТ"
+        "en": "Grenade Launcher",
+        "es": "Lanzagranadas",
+        "pt": "Lança-granadas",
+        "ru": "Гранатомет"
       }
     },
     {
@@ -1130,10 +1130,10 @@
       "icon": "icons/laser-cannon.svg",
       "cooldown": "480",
       "names": {
-        "en": "LASER CANNON",
-        "es": "CAÑÓN LÁSER",
-        "pt": "CANHÃO LASER",
-        "ru": "ЛАЗЕРНАЯ ПУШКА"
+        "en": "Laser Cannon",
+        "es": "Cañón láser",
+        "pt": "Canhão laser",
+        "ru": "Лазерная пушка"
       }
     },
     {
@@ -1152,10 +1152,10 @@
       "icon": "icons/arc-thrower.svg",
       "cooldown": "480",
       "names": {
-        "en": "ARC THROWER",
-        "es": "LANZAARCOS",
-        "pt": "LANÇA ARCOS",
-        "ru": "ДУГОВОЙ МЕТАТЕЛЬ"
+        "en": "Arc Thrower",
+        "es": "Lanzaarcos",
+        "pt": "Lança arcos",
+        "ru": "Дуговой метатель"
       }
     },
     {
@@ -1173,10 +1173,10 @@
       "icon": "icons/quasar-cannon.svg",
       "cooldown": "480",
       "names": {
-        "en": "QUASAR CANNON",
-        "es": "CAÑÓN CUASAR",
-        "pt": "CANHÃO QUASAR",
-        "ru": "ПУШКА КВАЗАР"
+        "en": "Quasar Cannon",
+        "es": "Cañón Cuasar",
+        "pt": "Canhão Quasar",
+        "ru": "Пушка Квазар"
       }
     },
     {
@@ -1196,10 +1196,10 @@
       "icon": "icons/patriot-exosuit.svg",
       "cooldown": "600",
       "names": {
-        "en": "PATRIOT EXOSUIT",
-        "es": "EXOTRAJE PATRIOTA",
-        "pt": "EXOTRAJE PATRIOTA",
-        "ru": "ЭКЗОКОСТЮМ ПАТРИОТ"
+        "en": "Patriot Exosuit",
+        "es": "Exotraje Patriota",
+        "pt": "Exotraje Patriota",
+        "ru": "Экзокостюм Патриот"
       }
     },
     {
@@ -1216,10 +1216,10 @@
       "icon": "icons/super-earth-flag.svg",
       "cooldown": "1",
       "names": {
-        "en": "SUPER EARTH FLAG",
-        "es": "BANDERA DE SÚPER TIERRA",
-        "pt": "BANDEIRA DA SUPER TERRA",
-        "ru": "СУПЕР ФЛАГ ЗЕМЛИ"
+        "en": "Super Earth Flag",
+        "es": "Bandera de Súper Tierra",
+        "pt": "Bandeira da Super Terra",
+        "ru": "Супер флаг Земли"
       }
     },
     {
@@ -1236,10 +1236,10 @@
       "icon": "icons/anti-tank-mines.svg",
       "cooldown": "180",
       "names": {
-        "en": "ANTI-TANK MINES",
-        "es": "MINAS ANTITANQUE",
-        "pt": "MINAS ANTITANQUE",
-        "ru": "ПРОТИВОТАНКОВЫЕ МИНЫ"
+        "en": "Anti-Tank Mines",
+        "es": "Minas antitanque",
+        "pt": "Minas antitanque",
+        "ru": "Противотанковые мины"
       }
     },
     {
@@ -1258,10 +1258,10 @@
       "icon": "icons/orbital-napalm-barrage.svg",
       "cooldown": "240",
       "names": {
-        "en": "ORBITAL NAPALM BARRAGE",
-        "es": "DESCARGA DE NAPALM ORBITAL",
-        "pt": "BOMBARDEIO ORBITAL DE NAPALM",
-        "ru": "ОРБИТАЛЬНЫЙ УДАР НАПАЛМОМ"
+        "en": "Orbital Napalm Barrage",
+        "es": "Descarga de napalm orbital",
+        "pt": "Bombardeio orbital de napalm",
+        "ru": "Орбитальный удар напалмом"
       }
     },
     {
@@ -1279,10 +1279,10 @@
       "icon": "icons/commando.svg",
       "cooldown": "120",
       "names": {
-        "en": "MLS-4X COMMANDO",
-        "es": "MLS-4X COMANDO",
-        "pt": "MLS-4X COMANDO",
-        "ru": "КОММАНДОС"
+        "en": "MLS-4X Commando",
+        "es": "MLS-4X Comando",
+        "pt": "MLS-4X Comando",
+        "ru": "Коммандос"
       }
     },
     {
@@ -1302,10 +1302,10 @@
       "icon": "icons/emancipator-exosuit.svg",
       "cooldown": "600",
       "names": {
-        "en": "EMANCIPATOR EXOSUIT",
-        "es": "EXOTRAJE EMANCIPADOR",
-        "pt": "EXOTRAJE EMANCIPADOR",
-        "ru": "ЭКЗОКОСТЮМ БЛАГОДЕТЕЛЬ"
+        "en": "Emancipator Exosuit",
+        "es": "Exotraje Emancipador",
+        "pt": "Exotraje Emancipador",
+        "ru": "Экзокостюм Благодетель"
       }
     },
     {
@@ -1323,10 +1323,10 @@
       "icon": "icons/sterilizer.svg",
       "cooldown": "480",
       "names": {
-        "en": "TX-41 STERILIZER",
-        "es": "TX-41 ESTERILIZADOR",
-        "pt": "TX-41 ESTERILIZADOR",
-        "ru": "TX-41 СТЕРИЛИЗАТОР"
+        "en": "TX-41 Sterilizer",
+        "es": "TX-41 Esterilizador",
+        "pt": "TX-41 Esterilizador",
+        "ru": "TX-41 Стерилизатор"
       }
     },
     {
@@ -1345,10 +1345,10 @@
       "icon": "icons/guard-dog-breath.svg",
       "cooldown": "480",
       "names": {
-        "en": "AX/TX-13 GUARD DOG DOG BREATH",
-        "es": "AX/TX-13 PERRO GUARDIÁN ALIENTO DE PERRO",
-        "pt": "AX/TX-13 CÃO DE GUARDA HÁLITO DE CACHORRO",
-        "ru": "AX/TX-13 СТОРОЖЕВОЙ ПЁС СОБАЧЬЕ ДЫХАНИЕ"
+        "en": "AX/TX-13 Guard Dog Dog Breath",
+        "es": "AX/TX-13 Perro guardián aliento de perro",
+        "pt": "AX/TX-13 Cão de guarda hálito de cachorro",
+        "ru": "AX/TX-13 Сторожевой пёс собачье дыхание"
       }
     },
     {
@@ -1366,10 +1366,10 @@
       "icon": "icons/sta-x3-w-a-s-p-launcher.svg",
       "cooldown": "480",
       "names": {
-        "en": "STA-X3 W.A.S.P. LAUNCHER",
-        "es": "LANZADOR STA-X3 W.A.S.P.",
-        "pt": "LANÇADOR STA-X3 W.A.S.P.",
-        "ru": "РАКЕТНАЯ УСТАНОВКА STA-X3 W.A.S.P."
+        "en": "STA-X3 W.A.S.P. Launcher",
+        "es": "Lanzador STA-X3 W.A.S.P.",
+        "pt": "Lançador STA-X3 W.A.S.P.",
+        "ru": "Ракетная установка STA-X3 W.A.S.P."
       }
     },
     {
@@ -1385,10 +1385,10 @@
       "icon": "icons/orbital-railcannon-strike.svg",
       "cooldown": "210",
       "names": {
-        "en": "ORBITAL RAILCANNON STRIKE",
-        "es": "ATAQUE DE CAÑÓN FERROVIARIO ORBITAL",
-        "pt": "ATAQUE DE CANHÃO FERROVIÁRIO ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ УДАР РЕЛЬСОТРОНОМ"
+        "en": "Orbital Railcannon Strike",
+        "es": "Ataque de cañón ferroviario orbital",
+        "pt": "Ataque de canhão ferroviário orbital",
+        "ru": "Орбитальный удар рельсотроном"
       },
       "deprecated": true
     },
@@ -1409,10 +1409,10 @@
       "icon": "icons/fast-recon-vehicle.svg",
       "cooldown": "480",
       "names": {
-        "en": "M-102 FAST RECONNAISSANCE VEHICLE",
-        "es": "VEHÍCULO DE RECONOCIMIENTO RÁPIDO M-102",
-        "pt": "VEÍCULO DE RECONHECIMENTO RÁPIDO M-102",
-        "ru": "БЫСТРАЯ РАЗВЕДЫВАТЕЛЬНАЯ МАШИНА M-102"
+        "en": "M-102 Fast Reconnaissance Vehicle",
+        "es": "Vehículo de reconocimiento rápido M-102",
+        "pt": "Veículo de reconhecimento rápido M-102",
+        "ru": "Быстрая разведывательная машина M-102"
       }
     },
     {
@@ -1429,10 +1429,10 @@
       "icon": "icons/orbital-ems-strike.svg",
       "cooldown": "75",
       "names": {
-        "en": "ORBITAL EMS STRIKE",
-        "es": "ATAQUE EMS ORBITAL",
-        "pt": "ATAQUE EMS ORBITAL",
-        "ru": "ОРБИТАЛЬНЫЙ EMS-УДАР"
+        "en": "Orbital EMS Strike",
+        "es": "Ataque EMS orbital",
+        "pt": "Ataque EMS orbital",
+        "ru": "Орбитальный EMS-удар"
       }
     },
     {
@@ -1450,10 +1450,10 @@
       "icon": "icons/grenadier-battlement.svg",
       "cooldown": "120",
       "names": {
-        "en": "E/GL-21 GRENADIER BATTLEMENT",
-        "es": "FORTIFICACIÓN GRENADIER E/GL-21",
-        "pt": "FORTIFICAÇÃO GRENADIER E/GL-21",
-        "ru": "ГРАНАТОМЁТНАЯ БАСТИОННАЯ УСТАНОВКА E/GL-21"
+        "en": "E/GL-21 Grenadier Battlement",
+        "es": "Fortificación Grenadier E/GL-21",
+        "pt": "Fortificação Grenadier E/GL-21",
+        "ru": "Гранатомётная бастионная установка E/GL-21"
       }
     },
     {
@@ -1469,10 +1469,10 @@
       "icon": "icons/grenadier-battlement.svg",
       "cooldown": "120",
       "names": {
-        "en": "E/GL-21 GRENADIER BATTLEMENT",
-        "es": "FORTIFICACIÓN GRENADIER E/GL-21",
-        "pt": "FORTIFICAÇÃO GRENADIER E/GL-21",
-        "ru": "ГРАНАТОМЁТНАЯ БАСТИОННАЯ УСТАНОВКА E/GL-21"
+        "en": "E/GL-21 Grenadier Battlement",
+        "es": "Fortificación Grenadier E/GL-21",
+        "pt": "Fortificação Grenadier E/GL-21",
+        "ru": "Гранатомётная бастионная установка E/GL-21"
       },
       "deprecated": true
     },
@@ -1488,10 +1488,10 @@
       "icon": "icons/anti-tank-mines.svg",
       "cooldown": "120",
       "names": {
-        "en": "MD-17 ANTI-TANK MINES",
-        "es": "MINAS ANTITANQUE MD-17",
-        "pt": "MINAS ANTI-TANQUE MD-17",
-        "ru": "ПРОТИВОТАНКОВЫЕ МИНЫ MD-17"
+        "en": "MD-17 Anti-Tank Mines",
+        "es": "Minas antitanque MD-17",
+        "pt": "Minas anti-tanque MD-17",
+        "ru": "Противотанковые мины MD-17"
       },
       "deprecated": true
     },
@@ -1509,10 +1509,10 @@
       "icon": "icons/gas-mine.svg",
       "cooldown": "120",
       "names": {
-        "en": "MD-8 GAS MINES",
-        "es": "MINAS DE GAS MD-8",
-        "pt": "MINAS DE GÁS MD-8",
-        "ru": "ГАЗОВЫЕ МИНЫ MD-8"
+        "en": "MD-8 Gas Mines",
+        "es": "Minas de gas MD-8",
+        "pt": "Minas de gás MD-8",
+        "ru": "Газовые мины MD-8"
       }
     },
     {
@@ -1531,10 +1531,10 @@
       "icon": "icons/directional-shield.svg",
       "cooldown": "300",
       "names": {
-        "en": "SH-51 DIRECTIONAL SHIELD",
-        "es": "ESCUDO DIRECCIONAL SH-51",
-        "pt": "ESCUDO DIRECIONAL SH-51",
-        "ru": "НАПРАВЛЕННЫЙ ЩИТ SH-51"
+        "en": "SH-51 Directional Shield",
+        "es": "Escudo direccional SH-51",
+        "pt": "Escudo direcional SH-51",
+        "ru": "Направленный щит SH-51"
       }
     },
     {
@@ -1553,10 +1553,10 @@
       "icon": "icons/anti-tank-emplacement.svg",
       "cooldown": "180",
       "names": {
-        "en": "E/AT-12 ANTI-TANK EMPLACEMENT",
-        "es": "FORTIFICACIÓN ANTITANQUE E/AT-12",
-        "pt": "FORTIFICAÇÃO ANTI-TANQUE E/AT-12",
-        "ru": "ПРОТИВОТАНКОВАЯ УКРЕПЛЕННАЯ ТОЧКА E/AT-12"
+        "en": "E/AT-12 Anti-Tank Emplacement",
+        "es": "Fortificación antitanque E/AT-12",
+        "pt": "Fortificação anti-tanque E/AT-12",
+        "ru": "Противотанковая укрепленная точка E/AT-12"
       }
     },
     {
@@ -1575,10 +1575,10 @@
       "icon": "icons/flame-sentry.svg",
       "cooldown": "150",
       "names": {
-        "en": "A/FLAM-40 FLAME SENTRY",
-        "es": "CENTINELA LANZALLAMAS A/FLAM-40",
-        "pt": "SENTINELA LANÇA-CHAMAS A/FLAM-40",
-        "ru": "ОГНЕМЁТНАЯ ТУРЕЛЬ A/FLAM-40"
+        "en": "A/FLAM-40 Flame Sentry",
+        "es": "Centinela lanzallamas A/FLAM-40",
+        "pt": "Sentinela lança-chamas A/FLAM-40",
+        "ru": "Огнемётная турель A/FLAM-40"
       }
     },
     {
@@ -1596,10 +1596,10 @@
       "icon": "icons/hellbomb-portable.svg",
       "cooldown": "300",
       "names": {
-        "en": "B-100 PORTABLE HELLBOMB",
-        "es": "BOMBA INFERNAL PORTÁTIL B-100",
-        "pt": "BOMBA DO INFERNO PORTÁTIL B-100",
-        "ru": "ПОРТАТИВНАЯ АДСКАЯ БОМБА B-100"
+        "en": "B-100 Portable Hellbomb",
+        "es": "Bomba infernal portátil B-100",
+        "pt": "Bomba do inferno portátil B-100",
+        "ru": "Портативная адская бомба B-100"
       }
     },
     {
@@ -1618,10 +1618,10 @@
       "icon": "icons/hover-pack.svg",
       "cooldown": "480",
       "names": {
-        "en": "LIFT-860 HOVER PACK",
-        "es": "MOCHILA FLOTANTE LIFT-860",
-        "pt": "MOCHILA FLUTUANTE LIFT-860",
-        "ru": "РЕАКТИВНЫЙ РАНЕЦ LIFT-860"
+        "en": "LIFT-860 Hover Pack",
+        "es": "Mochila flotante LIFT-860",
+        "pt": "Mochila flutuante LIFT-860",
+        "ru": "Реактивный ранец LIFT-860"
       }
     },
     {
@@ -1639,10 +1639,10 @@
       "icon": "icons/one-true-flag.svg",
       "cooldown": "480",
       "names": {
-        "en": "CQC-1 ONE TRUE FLAG",
-        "es": "LA ÚNICA Y VERDADERA BANDERA CQC-1",
-        "pt": "A ÚNICA E VERDADEIRA BANDEIRA CQC-1",
-        "ru": "ЕДИНСТВЕННЫЙ ИСТИННЫЙ ФЛАГ CQC-1"
+        "en": "CQC-1 One True Flag",
+        "es": "La única y verdadera bandera CQC-1",
+        "pt": "A única e verdadeira bandeira CQC-1",
+        "ru": "Единственный истинный флаг CQC-1"
       }
     },
     {
@@ -1662,9 +1662,9 @@
       "cooldown": "480",
       "names": {
         "en": "AX/ARC-3 K-9",
-        "es": "PERRO GUARDIÁN K-9 AX/ARC-3",
-        "pt": "CÃO DE GUARDA K-9 AX/ARC-3",
-        "ru": "СТОРОЖЕВОЙ ПЁС K-9 AX/ARC-3"
+        "es": "Perro guardián K-9 AX/ARC-3",
+        "pt": "Cão de guarda K-9 AX/ARC-3",
+        "ru": "Сторожевой пёс K-9 AX/ARC-3"
       }
     },
     {
@@ -1682,10 +1682,10 @@
       "icon": "icons/gl-52-de-escalator.svg",
       "cooldown": "480",
       "names": {
-        "en": "GL-52 DE-ESCALATOR",
-        "es": "DESESCALADOR GL-52",
-        "pt": "DESESCALADOR GL-52",
-        "ru": "ДЕЭСКАЛАТОР GL-52"
+        "en": "GL-52 De-Escalator",
+        "es": "Desescalador GL-52",
+        "pt": "Desescalador GL-52",
+        "ru": "Деэскалатор GL-52"
       }
     },
     {
@@ -1704,10 +1704,10 @@
       "icon": "icons/laser-sentry.svg",
       "cooldown": "150",
       "names": {
-        "en": "A/LAS-98 LASER SENTRY",
-        "es": "CENTINELA LÁSER A/LAS-98",
-        "pt": "SENTINELA LASER A/LAS-98",
-        "ru": "ЛАЗЕРНАЯ ТУРЕЛЬ A/LAS-98"
+        "en": "A/LAS-98 Laser Sentry",
+        "es": "Centinela láser A/LAS-98",
+        "pt": "Sentinela laser A/LAS-98",
+        "ru": "Лазерная турель A/LAS-98"
       }
     },
     {
@@ -1726,10 +1726,10 @@
       "icon": "icons/warp-pack.svg",
       "cooldown": "480",
       "names": {
-        "en": "LIFT-182 WARP PACK",
-        "es": "MOCHILA WARP LIFT-182",
-        "pt": "MOCHILA WARP LIFT-182",
-        "ru": "ВАРП-РАНЕЦ LIFT-182"
+        "en": "LIFT-182 Warp Pack",
+        "es": "Mochila warp LIFT-182",
+        "pt": "Mochila warp LIFT-182",
+        "ru": "Варп-ранец LIFT-182"
       }
     },
     {
@@ -1747,10 +1747,10 @@
       "icon": "icons/epoch.svg",
       "cooldown": "480",
       "names": {
-        "en": "PLAS-45 EPOCH",
-        "es": "EPOCH PLAS-45",
-        "pt": "EPOCH PLAS-45",
-        "ru": "ЭПОХА PLAS-45"
+        "en": "PLAS-45 Epoch",
+        "es": "Epoch PLAS-45",
+        "pt": "Epoch PLAS-45",
+        "ru": "Эпоха PLAS-45"
       }
     },
     {
@@ -1768,10 +1768,10 @@
       "icon": "icons/solo-silo.svg",
       "cooldown": "180",
       "names": {
-        "en": "MS-11 SOLO SILO",
-        "es": "SILO SOLITARIO MS-11",
-        "pt": "SILO SOLITÁRIO MS-11",
-        "ru": "ОДИНОЧНЫЙ СИЛОС MS-11"
+        "en": "MS-11 Solo Silo",
+        "es": "Silo solitario MS-11",
+        "pt": "Silo solitário MS-11",
+        "ru": "Одиночный силос MS-11"
       }
     },
     {
@@ -1789,10 +1789,10 @@
       "icon": "icons/expendable-napalm.svg",
       "cooldown": "140",
       "names": {
-        "en": "EAT-700 EXPENDABLE NAPALM",
-        "es": "NAPALM DESECHABLE EAT-700",
-        "pt": "NAPALM DESCARTÁVEL EAT-700",
-        "ru": "ОДНОРАЗОВЫЙ НАПАЛМ EAT-700"
+        "en": "EAT-700 Expendable Napalm",
+        "es": "Napalm desechable EAT-700",
+        "pt": "Napalm descartável EAT-700",
+        "ru": "Одноразовый напалм EAT-700"
       }
     },
     {
@@ -1811,10 +1811,10 @@
       "icon": "icons/speargun.svg",
       "cooldown": "480",
       "names": {
-        "en": "S-11 SPEARGUN",
-        "es": "LANZARPONES S-11",
-        "pt": "ARPOEIRA S-11",
-        "ru": "ГАРПУННОЕ РУЖЬЁ S-11"
+        "en": "S-11 Speargun",
+        "es": "Lanzarpones S-11",
+        "pt": "Arpoeira S-11",
+        "ru": "Гарпунное ружьё S-11"
       }
     },
     {
@@ -1833,10 +1833,10 @@
       "icon": "icons/maxigun.svg",
       "cooldown": "480",
       "names": {
-        "en": "M-1000 MAXIGUN",
-        "es": "MAXIGUN M-1000",
-        "pt": "MAXIGUN M-1000",
-        "ru": "МАКСИГАН M-1000"
+        "en": "M-1000 Maxigun",
+        "es": "Maxigun M-1000",
+        "pt": "Maxigun M-1000",
+        "ru": "Максиган M-1000"
       }
     },
     {
@@ -1854,10 +1854,10 @@
       "icon": "icons/defoliation-tool.svg",
       "cooldown": "480",
       "names": {
-        "en": "CQC-9 DEFOLIATION TOOL",
-        "es": "HERRAMIENTA DE DEFOLIACIÓN CQC-9",
-        "pt": "FERRAMENTA DE DESFOLHAMENTO CQC-9",
-        "ru": "ИНСТРУМЕНТ ДЕФОЛИАЦИИ CQC-9"
+        "en": "CQC-9 Defoliation Tool",
+        "es": "Herramienta de defoliación CQC-9",
+        "pt": "Ferramenta de desfolhamento CQC-9",
+        "ru": "Инструмент дефолиации CQC-9"
       }
     },
     {
@@ -1876,10 +1876,10 @@
       "icon": "icons/guard-dog-hot-dog.svg",
       "cooldown": "480",
       "names": {
-        "en": "AX/FLAM-75 HOT DOG",
-        "es": "PERRITO CALIENTE AX/FLAM-75",
-        "pt": "CACHORRO-QUENTE AX/FLAM-75",
-        "ru": "ХОТ-ДОГ AX/FLAM-75"
+        "en": "AX/FLAM-75 Hot Dog",
+        "es": "Perrito caliente AX/FLAM-75",
+        "pt": "Cachorro-quente AX/FLAM-75",
+        "ru": "Хот-дог AX/FLAM-75"
       }
     },
     {
@@ -1898,10 +1898,10 @@
       "icon": "icons/c4-pack.svg",
       "cooldown": "480",
       "names": {
-        "en": "B/MD C4 PACK",
-        "es": "MOCHILA C4 B/MD",
-        "pt": "MOCHILA C4 B/MD",
-        "ru": "РАНЕЦ C4 B/MD"
+        "en": "B/MD C4 Pack",
+        "es": "Mochila C4 B/MD",
+        "pt": "Mochila C4 B/MD",
+        "ru": "Ранец C4 B/MD"
       }
     },
     {
@@ -1919,10 +1919,10 @@
       "icon": "icons/eat-411.svg",
       "cooldown": "140",
       "names": {
-        "en": "EAT-411 LEVELLER",
-        "es": "NIVELADOR EAT-411",
-        "pt": "NIVELADOR EAT-411",
-        "ru": "УРАВНИТЕЛЬ EAT-411"
+        "en": "EAT-411 Leveller",
+        "es": "Nivelador EAT-411",
+        "pt": "Nivelador EAT-411",
+        "ru": "Уравнитель EAT-411"
       }
     },
     {
@@ -1940,10 +1940,10 @@
       "icon": "icons/cqc-20.svg",
       "cooldown": "480",
       "names": {
-        "en": "CQC-20 BREACHING HAMMER",
-        "es": "MARTILLO DE BRECHA CQC-20",
-        "pt": "MARTELO DE BRECHA CQC-20",
-        "ru": "ШТУРМОВОЙ МОЛОТ CQC-20"
+        "en": "CQC-20 Breaching Hammer",
+        "es": "Martillo de brecha CQC-20",
+        "pt": "Martelo de brecha CQC-20",
+        "ru": "Штурмовой молот CQC-20"
       }
     },
     {
@@ -1962,10 +1962,10 @@
       "icon": "icons/gl-28.svg",
       "cooldown": "480",
       "names": {
-        "en": "GL-28 BELT-FED GRENADE LAUNCHER",
-        "es": "LANZAGRANADAS DE CINTA GL-28",
-        "pt": "LANÇA-GRANADAS DE FITA GL-28",
-        "ru": "ЛЕНТОЧНЫЙ ГРАНАТОМЁТ GL-28"
+        "en": "GL-28 Belt-Fed Grenade Launcher",
+        "es": "Lanzagranadas de cinta GL-28",
+        "pt": "Lança-granadas de fita GL-28",
+        "ru": "Ленточный гранатомёт GL-28"
       }
     },
     {
@@ -1987,10 +1987,10 @@
       "icon": "icons/bastion-mk-xvi.svg",
       "cooldown": "780",
       "names": {
-        "en": "TD-220 BASTION MK XVI",
-        "es": "BASTIÓN MK XVI TD-220",
-        "pt": "BASTIÃO MK XVI TD-220",
-        "ru": "БАСТИОН MK XVI TD-220"
+        "en": "TD-220 Bastion MK XVI",
+        "es": "Bastión MK XVI TD-220",
+        "pt": "Bastião MK XVI TD-220",
+        "ru": "Бастион MK XVI TD-220"
       }
     },
     {
@@ -2008,10 +2008,10 @@
       "icon": "icons/gas-mortar-sentry.svg",
       "cooldown": "180",
       "names": {
-        "en": "A/GM-17 GAS MORTAR SENTRY",
-        "es": "CENTINELA MORTERO DE GAS A/GM-17",
-        "pt": "SENTINELA MORTEIRO DE GÁS A/GM-17",
-        "ru": "ГАЗОВАЯ МИНОМЁТНАЯ ТУРЕЛЬ A/GM-17"
+        "en": "A/GM-17 Gas Mortar Sentry",
+        "es": "Centinela mortero de gas A/GM-17",
+        "pt": "Sentinela morteiro de gás A/GM-17",
+        "ru": "Газовая миномётная турель A/GM-17"
       }
     },
     {
@@ -2030,10 +2030,10 @@
       "icon": "icons/cremator.svg",
       "cooldown": "480",
       "names": {
-        "en": "B/FLAM-80 CREMATOR",
-        "es": "CREMADOR B/FLAM-80",
-        "pt": "CREMADOR B/FLAM-80",
-        "ru": "КРЕМАТОР B/FLAM-80"
+        "en": "B/FLAM-80 Cremator",
+        "es": "Cremador B/FLAM-80",
+        "pt": "Cremador B/FLAM-80",
+        "ru": "Крематор B/FLAM-80"
       }
     },
     {
@@ -2052,10 +2052,10 @@
       "icon": "icons/bullet-storm.svg",
       "cooldown": "70",
       "names": {
-        "en": "MGX-42 BULLET STORM",
-        "es": "TORMENTA DE BALAS MGX-42",
-        "pt": "TEMPESTADE DE BALAS MGX-42",
-        "ru": "ПУЛЕВОЙ ШТОРМ MGX-42"
+        "en": "MGX-42 Bullet Storm",
+        "es": "Tormenta de balas MGX-42",
+        "pt": "Tempestade de balas MGX-42",
+        "ru": "Пулевой шторм MGX-42"
       }
     },
     {
@@ -2075,10 +2075,10 @@
       "icon": "icons/lumberer-exosuit.svg",
       "cooldown": "420",
       "names": {
-        "en": "EXO-51 LUMBERER EXOSUIT",
-        "es": "EXOTRAJE LEÑADOR EXO-51",
-        "pt": "EXOTRAJE LENHADOR EXO-51",
-        "ru": "ЭКЗОКОСТЮМ ЛЕСОРУБ EXO-51"
+        "en": "EXO-51 Lumberer Exosuit",
+        "es": "Exotraje Leñador EXO-51",
+        "pt": "Exotraje Lenhador EXO-51",
+        "ru": "Экзокостюм Лесоруб EXO-51"
       }
     },
     {
@@ -2098,10 +2098,10 @@
       "icon": "icons/breakthrough-exosuit.svg",
       "cooldown": "420",
       "names": {
-        "en": "EXO-55 BREAKTHROUGH EXOSUIT",
-        "es": "EXOTRAJE DE AVANCE EXO-55",
-        "pt": "EXOTRAJE DE AVANÇO EXO-55",
-        "ru": "ЭКЗОКОСТЮМ ПРОРЫВ EXO-55"
+        "en": "EXO-55 Breakthrough Exosuit",
+        "es": "Exotraje Avance EXO-55",
+        "pt": "Exotraje Avanço EXO-55",
+        "ru": "Экзокостюм Прорыв EXO-55"
       }
     },
     {
@@ -2121,10 +2121,10 @@
       "icon": "icons/incinerator-frv.svg",
       "cooldown": "480",
       "names": {
-        "en": "M-104 INCINERATOR FRV",
-        "es": "VEHÍCULO INCINERADOR M-104",
-        "pt": "VEÍCULO INCINERADOR M-104",
-        "ru": "БЫСТРАЯ МАШИНА-ИНЦИНЕРАТОР M-104"
+        "en": "M-104 Incinerator FRV",
+        "es": "Vehículo incinerador M-104",
+        "pt": "Veículo incinerador M-104",
+        "ru": "Быстрая машина-инцинератор M-104"
       }
     },
     {
@@ -2144,10 +2144,10 @@
       "icon": "icons/supply-frv.svg",
       "cooldown": "480",
       "names": {
-        "en": "M-103 SUPPLY FRV",
-        "es": "VEHÍCULO DE SUMINISTROS M-103",
-        "pt": "VEÍCULO DE SUPRIMENTOS M-103",
-        "ru": "БЫСТРАЯ МАШИНА СНАБЖЕНИЯ M-103"
+        "en": "M-103 Supply FRV",
+        "es": "Vehículo de suministros M-103",
+        "pt": "Veículo de suprimentos M-103",
+        "ru": "Быстрая машина снабжения M-103"
       }
     },
     {
@@ -2166,10 +2166,10 @@
       "icon": "icons/40-k-meltagun.svg",
       "cooldown": "480",
       "names": {
-        "en": "40-K MELTAGUN",
-        "es": "MELTAGUN 40-K",
-        "pt": "MELTAGUN 40-K",
-        "ru": "МЕЛЬТАГАН 40-K"
+        "en": "40-K Meltagun",
+        "es": "Meltagun 40-K",
+        "pt": "Meltagun 40-K",
+        "ru": "Мельтаган 40-K"
       }
     },
     {
@@ -2186,10 +2186,10 @@
       "icon": "icons/eagle-gas-strike.svg",
       "cooldown": "15",
       "names": {
-        "en": "EAGLE GAS AIRSTRIKE",
-        "es": "ATAQUE AÉREO DE GAS DE ÁGUILA",
-        "pt": "ATAQUE AÉREO DE GÁS DE ÁGUIA",
-        "ru": "ОРЁЛ ГАЗОВЫЙ УДАР"
+        "en": "Eagle Gas Airstrike",
+        "es": "Ataque aéreo de gas de águila",
+        "pt": "Ataque aéreo de gás de águia",
+        "ru": "Орёл газовый удар"
       }
     },
     {
@@ -2211,10 +2211,10 @@
       "icon": "icons/td-110-maelstrom.svg",
       "cooldown": "780",
       "names": {
-        "en": "TD-110 MAELSTROM",
-        "es": "MAELSTROM TD-110",
-        "pt": "MAELSTROM TD-110",
-        "ru": "МАЛЬСТРЁМ TD-110"
+        "en": "TD-110 Maelstrom",
+        "es": "Maelstrom TD-110",
+        "pt": "Maelstrom TD-110",
+        "ru": "Мальстрём TD-110"
       }
     },
     {
@@ -2232,10 +2232,10 @@
       "icon": "icons/las-44-nova.svg",
       "cooldown": "480",
       "names": {
-        "en": "LAS-44 NOVA",
-        "es": "NOVA LAS-44",
-        "pt": "NOVA LAS-44",
-        "ru": "НОВА LAS-44"
+        "en": "LAS-44 Nova",
+        "es": "Nova LAS-44",
+        "pt": "Nova LAS-44",
+        "ru": "Нова LAS-44"
       }
     },
     {
@@ -2254,10 +2254,10 @@
       "icon": "icons/amw-20-apex.svg",
       "cooldown": "480",
       "names": {
-        "en": "AMW-20 APEX",
-        "es": "APEX AMW-20",
-        "pt": "APEX AMW-20",
-        "ru": "АПЕКС AMW-20"
+        "en": "AMW-20 Apex",
+        "es": "Apex AMW-20",
+        "pt": "Apex AMW-20",
+        "ru": "Апекс AMW-20"
       }
     }
   ]
