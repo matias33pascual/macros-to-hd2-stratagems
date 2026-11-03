@@ -1,0 +1,13 @@
+name: macros_to_hd2_stratagems
+description: Helldivers 2 stratagems catalog (key codes, names, icons) and the script that refreshes it from helldivers.wiki.gg.
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  http: ^1.2.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0

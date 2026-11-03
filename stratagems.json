@@ -1,0 +1,1476 @@
+{
+  "version": 1,
+  "gameVersion": "0.000.000",
+  "stratagems": [
+    {
+      "id": "000",
+      "type": "mission",
+      "keysCode": [
+        "up",
+        "down",
+        "right",
+        "left",
+        "up"
+      ],
+      "icon": "assets/icons/Reinforce.webp",
+      "cooldown": "1",
+      "names": {
+        "en": "REINFORCEMENT",
+        "es": "REFUERZO",
+        "pt": "REFORÇO",
+        "ru": "ПОДКРЕПЛЕНИЕ"
+      }
+    },
+    {
+      "id": "001",
+      "type": "mission",
+      "keysCode": [
+        "up",
+        "down",
+        "right",
+        "up"
+      ],
+      "icon": "assets/icons/SOS-Beacon.webp",
+      "cooldown": "1",
+      "names": {
+        "en": "S.O.S BEACON",
+        "es": "BALIZA DE S.O.S",
+        "pt": "BALIZA S.O.S",
+        "ru": "S.O.S МАЯК"
+      }
+    },
+    {
+      "id": "002",
+      "type": "mission",
+      "keysCode": [
+        "down",
+        "down",
+        "up",
+        "right"
+      ],
+      "icon": "assets/icons/Resupply.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "RESUPPLY",
+        "es": "REABASTECIMIENTOS",
+        "pt": "REABASTECIMENTO",
+        "ru": "ЯЩИК БРОЕПРИПАСОВ"
+      }
+    },
+    {
+      "id": "003",
+      "type": "mission",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/Hellbomb.webp",
+      "cooldown": "30",
+      "names": {
+        "en": "HELL BOMB",
+        "es": "BOMBA HELL",
+        "pt": "BOMBA INFERNAL",
+        "ru": "ЯДЕРНАЯ БОМБА"
+      }
+    },
+    {
+      "id": "004",
+      "type": "mission",
+      "keysCode": [
+        "right",
+        "up",
+        "up",
+        "down"
+      ],
+      "icon": "assets/icons/SEAF-Artillery.webp",
+      "cooldown": "11",
+      "names": {
+        "en": "SEAF ARTILLERY",
+        "es": "ARTILLERIA SEAF",
+        "pt": "ARTILHARIA SEAF",
+        "ru": "СТАЦИОНАРНАЯ АРТИЛЛЕРИЯ"
+      }
+    },
+    {
+      "id": "005",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "up",
+        "left",
+        "up",
+        "right"
+      ],
+      "icon": "assets/icons/Eagle-Rearm.webp",
+      "cooldown": "150",
+      "names": {
+        "en": "EAGLE REARM",
+        "es": "RECARGA DE AGUILA",
+        "pt": "RECARGA DE ÁGUIA",
+        "ru": "ОРЁЛ ПЕРЕЗАРЯДКА"
+      }
+    },
+    {
+      "id": "006",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "right"
+      ],
+      "icon": "assets/icons/Eagle-Strafing-Run.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE STRAFING RUN",
+        "es": "BARRIDA DE AMETRALLADORA DE AGUILA",
+        "pt": "VARREDURA DE METRALHADORA DE ÁGUIA",
+        "ru": "ОРЁЛ БРЕЮЩИЙ ПОЛЁТ"
+      }
+    },
+    {
+      "id": "007",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/Eagle-Airstrike.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE AIR STRIKE",
+        "es": "ATAQUE AEREO DE AGUILA",
+        "pt": "ATAQUE AÉREO DE ÁGUIA",
+        "ru": "ОРЁЛ ВОЗДУШНЫЙ УДАР"
+      }
+    },
+    {
+      "id": "008",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "down",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/Eagle-Cluster-Bomb.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE CLUSTER BOMB",
+        "es": "BOMBA DE RACIMO DE AGUILA",
+        "pt": "BOMBA DE FRAGMENTAÇÃO DE ÁGUIA",
+        "ru": "ОРЁЛ КЛАСТЕРНЫЙ УДАР"
+      }
+    },
+    {
+      "id": "009",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/Eagle-Napalm-Airstrike.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE NAPALM AIR STRIKE",
+        "es": "ATAQUE AEREO DE NAPALM DE AGUILA",
+        "pt": "ATAQUE AÉREO DE NAPALM DE ÁGUIA",
+        "ru": "ОРЁЛ УДАР НАПАЛМОМ"
+      }
+    },
+    {
+      "id": "010",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "up",
+        "down"
+      ],
+      "icon": "assets/icons/Eagle-Smoke-Strike.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE SMOKE ATTACK",
+        "es": "ATAQUE DE HUMO DE AGUILA",
+        "pt": "ATAQUE DE FUMAÇA DE ÁGUIA",
+        "ru": "ОРЁЛ ДЫМОВАЯ ЗАВЕСА"
+      }
+    },
+    {
+      "id": "011",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "up",
+        "left"
+      ],
+      "icon": "assets/icons/Eagle-110MM-Rocket-Pods.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE 110 MM ROCKET PODS",
+        "es": "CAPSULAS DE COHETES DE 110 MM DE AGUILA",
+        "pt": "CÁPSULAS DE FOGUETES DE 110 MM DE ÁGUIA",
+        "ru": "ОРЁЛ 110 MM РАКЕТНЫЙ УДАР"
+      }
+    },
+    {
+      "id": "012",
+      "type": "eagle",
+      "keysCode": [
+        "up",
+        "right",
+        "down",
+        "down",
+        "down"
+      ],
+      "icon": "assets/icons/Eagle-500KG-Bomb.webp",
+      "cooldown": "8",
+      "names": {
+        "en": "EAGLE 500 KG BOMB",
+        "es": "BOMBA DE 500 KG DE AGUILA",
+        "pt": "BOMBA DE 500 KG DE ÁGUIA",
+        "ru": "ОРЁЛ 500 KГ БОМБА"
+      }
+    },
+    {
+      "id": "013",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "up",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/Jump-Pack.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "JUMP PACK",
+        "es": "MOCHILA DE SALTO",
+        "pt": "MOCHILA DE SALTO",
+        "ru": "ПРЫЖКОВЫЙ РАНЕЦ"
+      }
+    },
+    {
+      "id": "014",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "up",
+        "down"
+      ],
+      "icon": "assets/icons/Supply-Pack.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "SUPPLY PACK",
+        "es": "MOCHILA DE REABASTECIMIENTO",
+        "pt": "MOCHILA DE ABASTECIMENTO",
+        "ru": "РЮКЗАК С БОЕПРИПАСАМИ"
+      }
+    },
+    {
+      "id": "015",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "right"
+      ],
+      "icon": "assets/icons/Guard-Dog-Rover.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "ROVER GUARD DOG",
+        "es": "ROVER PERRO GUARDIAN",
+        "pt": "ROVER CÃO DE GUARDA",
+        "ru": "ЛАЗЕРНЫЙ СТОРОЖЕВОЙ ПЕС"
+      }
+    },
+    {
+      "id": "016",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "down",
+        "up",
+        "left"
+      ],
+      "icon": "assets/icons/Ballistic-Shield-Backpack.webp",
+      "cooldown": "300",
+      "names": {
+        "en": "BALLISTIC SHIELD PACK",
+        "es": "MOCHILA DE ESCUDO BALISTICO",
+        "pt": "MOCHILA DE ESCUDO BALÍSTICO",
+        "ru": "БАЛЛИСТИЧЕСКИЙ ЩИТ"
+      }
+    },
+    {
+      "id": "017",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Shield-Generator-Pack.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "SHIELD GENERATOR PACK",
+        "es": "MOCHILA GENERADORA DE ESCUDO",
+        "pt": "MOCHILA GERADORA DE ESCUDO",
+        "ru": "ГЕНЕРАТОР ЩИТА"
+      }
+    },
+    {
+      "id": "018",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "down"
+      ],
+      "icon": "assets/icons/Guard-Dog.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "GUARD DOG",
+        "es": "PERRO GUARDIAN",
+        "pt": "CÃO DE GUARDA",
+        "ru": "СТОРОЖЕВОЙ ПЕС"
+      }
+    },
+    {
+      "id": "019",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "right",
+        "left"
+      ],
+      "icon": "assets/icons/HGM-Emplacement.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "HGM PLACEMENT",
+        "es": "EMPLAZAMIENTO AP",
+        "pt": "EMPLACAMENTO AP",
+        "ru": "ОГНЕВАЯ ПОЗИЦИЯ ТЯЖ.ПУЛЕМЕТ"
+      }
+    },
+    {
+      "id": "020",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "down",
+        "left",
+        "right",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Shield-Generator-Relay.webp",
+      "cooldown": "90",
+      "names": {
+        "en": "SHIELD GENERATOR RELAY",
+        "es": "RELE GENERADOR DE ESCUDO",
+        "pt": "RELE GERADOR DE ESCUDO",
+        "ru": "СТАЦИОНАРНЫЙ ГЕНЕРАТОР ЩИТА"
+      }
+    },
+    {
+      "id": "021",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Tesla-Tower.webp",
+      "cooldown": "150",
+      "names": {
+        "en": "TESLA TOWER",
+        "es": "TORRE TESLA",
+        "pt": "TORRE TESLA",
+        "ru": "ТЕСЛА-БАШНЯ"
+      }
+    },
+    {
+      "id": "022",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "icon": "assets/icons/Anti-Personnel-Minefield.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "ANTIPERSONNEL MINEFIELD",
+        "es": "CAMPO MINADO ANTIPERSONAL",
+        "pt": "CAMPO MINADO ANTIPESSOAL",
+        "ru": "ПРОТИВОПЕХОТНЫЕ МИНЫ"
+      }
+    },
+    {
+      "id": "023",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "left",
+        "left",
+        "down"
+      ],
+      "icon": "assets/icons/Incendiary-Mines.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "INCENDIARY MINES",
+        "es": "MINAS INCENDIARIAS",
+        "pt": "MINAS INCENDIÁRIAS",
+        "ru": "ЗАЖИГАТЕЛЬНЫЕ МИНЫ"
+      }
+    },
+    {
+      "id": "024",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "right",
+        "up"
+      ],
+      "icon": "assets/icons/Machine-Gun-Sentry.webp",
+      "cooldown": "120",
+      "names": {
+        "en": "MACHINE GUN SENTRY",
+        "es": "VIGIA AMETRALLADORA",
+        "pt": "SENTINELA METRALHADORA",
+        "ru": "ПУЛЕМЁТНАЯ ТУРЕЛЬ"
+      }
+    },
+    {
+      "id": "025",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "left"
+      ],
+      "icon": "assets/icons/Gatling-Sentry.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "GATLING SENTRY",
+        "es": "VIGIA GATLING",
+        "pt": "SENTINELA GATLING",
+        "ru": "ТУРЕЛЬ ГАТЛИНГА"
+      }
+    },
+    {
+      "id": "026",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "right",
+        "down"
+      ],
+      "icon": "assets/icons/Mortar-Sentry.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "MORTAR SENTRY",
+        "es": "VIGIA MORTERO",
+        "pt": "SENTINELA MORTEIRO",
+        "ru": "МИНОМЁТНАЯ ТУРЕЛЬ"
+      }
+    },
+    {
+      "id": "027",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up"
+      ],
+      "icon": "assets/icons/Autocannon-Sentry.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "AUTOCANNON SENTRY",
+        "es": "VIGIA DE CAÑON AUTOMATICO",
+        "pt": "SENTINELA CANHÃO AUTOMÁTICO",
+        "ru": "ТУРЕЛЬ С АВТОПУШКОЙ"
+      }
+    },
+    {
+      "id": "028",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "right",
+        "left"
+      ],
+      "icon": "assets/icons/Rocket-Sentry.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "ROCKET SENTRY",
+        "es": "VIGIA DE COHETES",
+        "pt": "SENTINELA FOGUETES",
+        "ru": "РАКЕТНАЯ ТУРЕЛЬ"
+      }
+    },
+    {
+      "id": "029",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/EMS-Mortar-Sentry.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "OEM MORTAR SENTRY",
+        "es": "VIGIA MORTERO OEM",
+        "pt": "SENTINELA MORTEIRO OEM",
+        "ru": "ЭМИ-МИНОМЕТНАЯ ТУРЕЛЬ"
+      }
+    },
+    {
+      "id": "030",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "down",
+        "left",
+        "up",
+        "up"
+      ],
+      "icon": "assets/icons/Orbital-Gatling-Barrage.webp",
+      "cooldown": "70",
+      "names": {
+        "en": "ORBITAL GATLING STRIKE",
+        "es": "DESCARGA GATLING ORBITAL",
+        "pt": "DISPARO GATLING ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ЗАЛП ГАТЛИНГА"
+      }
+    },
+    {
+      "id": "031",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "right"
+      ],
+      "icon": "assets/icons/Orbital-Airburst-Strike.webp",
+      "cooldown": "100",
+      "names": {
+        "en": "ORBITAL AIRBURST ATTACK",
+        "es": "ATAQUE DE EXPLOSION AEREA ORBITAL",
+        "pt": "ATAQUE DE EXPLOSÃO AÉREA ORBITAL",
+        "ru": "ОРБИТАЛЬНАЯ ВОЗДУШНАЯ БОМБА"
+      }
+    },
+    {
+      "id": "032",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "down",
+        "left",
+        "right",
+        "down"
+      ],
+      "icon": "assets/icons/Orbital-120MM-HE-Barrage.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "ORBITAL 120 MM AE STRIKE",
+        "es": "DESCARGA AE DE 120 MM ORBITAL",
+        "pt": "DISPARO AE DE 120 MM ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ЗАЛП 120 MM ОФ"
+      }
+    },
+    {
+      "id": "033",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "down",
+        "up",
+        "up",
+        "left",
+        "down",
+        "down"
+      ],
+      "icon": "assets/icons/Orbital-380MM-HE-Barrage.webp",
+      "cooldown": "240",
+      "names": {
+        "en": "ORBITAL 380 MM AE STRIKE",
+        "es": "DESCARGA AE DE 380 MM ORBITAL",
+        "pt": "DISPARO AE DE 380 MM ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ЗАЛП 380 MM ОФ"
+      }
+    },
+    {
+      "id": "034",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "down",
+        "right",
+        "down",
+        "right",
+        "down"
+      ],
+      "icon": "assets/icons/Orbital-Walking-Barrage.webp",
+      "cooldown": "240",
+      "names": {
+        "en": "ORBITAL WALKING BARRAGE",
+        "es": "DESCARGA DE CAMINANTE ORBITAL",
+        "pt": "DISPARO DE ANDADOR ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ОГНЕВОЙ ВАЛ"
+      }
+    },
+    {
+      "id": "035",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "down",
+        "up",
+        "right",
+        "down"
+      ],
+      "icon": "assets/icons/Orbital-Laser.webp",
+      "cooldown": "300",
+      "names": {
+        "en": "ORBITAL LASER",
+        "es": "LASER ORBITAL",
+        "pt": "LASER ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ЛАЗЕР"
+      }
+    },
+    {
+      "id": "036",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "up",
+        "down",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/Orbital-Railcannon-Strike.webp",
+      "cooldown": "210",
+      "names": {
+        "en": "ORBITAL RAILGUN STRIKE",
+        "es": "ATAQUE CON CAÑON DE RIEL ORBITAL",
+        "pt": "ATAQUE COM CANHÃO DE RIEL ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ РЕЛЬСОТРОННЫЙ ЗАЛП"
+      }
+    },
+    {
+      "id": "037",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "up"
+      ],
+      "icon": "assets/icons/Orbital-Precision-Strike.webp",
+      "cooldown": "90",
+      "names": {
+        "en": "ORBITAL PRECISION STRIKE",
+        "es": "ATAQUE DE PRECISION ORBITAL",
+        "pt": "ATAQUE DE PRECISÃO ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ВЫСОКОТОЧНЫЙ УДАР"
+      }
+    },
+    {
+      "id": "038",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/Orbital-Gas-Strike.webp",
+      "cooldown": "75",
+      "names": {
+        "en": "ORBITAL GAS ATTACK",
+        "es": "ATAQUE DE GAS ORBITAL",
+        "pt": "ATAQUE DE GÁS ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ГАЗОВЫЙ УДАР"
+      }
+    },
+    {
+      "id": "039",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "left",
+        "up"
+      ],
+      "icon": "assets/icons/Orbital-EMS-Strike.webp",
+      "cooldown": "75",
+      "names": {
+        "en": "ORBITAL OEM ATTACK",
+        "es": "ATAQUE DE OEM ORBITAL",
+        "pt": "ATAQUE OEM ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ ЭМИ-УДАР"
+      }
+    },
+    {
+      "id": "040",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/Orbital-Smoke-Strike.webp",
+      "cooldown": "100",
+      "names": {
+        "en": "ORBITAL SMOKE ATTACK",
+        "es": "ATAQUE DE HUMO ORBITAL",
+        "pt": "ATAQUE DE FUMAÇA ORBITAL",
+        "ru": "ОРБИТАЛЬНАЯ ДЫМОВАЯ ЗАВЕСА"
+      }
+    },
+    {
+      "id": "041",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "right"
+      ],
+      "icon": "assets/icons/Machine-Gun.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "MACHINE GUN",
+        "es": "AMETRALLADORA",
+        "pt": "METRALHADORA",
+        "ru": "ПУЛЕМЕТ"
+      }
+    },
+    {
+      "id": "042",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "up",
+        "down"
+      ],
+      "icon": "assets/icons/Anti-Materiel-Rifle.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "ANTI-MATERIEL RIFLE",
+        "es": "RIFLE ANTIEQUIPAMIENTO",
+        "pt": "RIFLE ANTI-EQUIPAMENTO",
+        "ru": "КРУПНОКАЛИБЕРНЫЯ ВИНТОВКА"
+      }
+    },
+    {
+      "id": "043",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "up",
+        "left"
+      ],
+      "icon": "assets/icons/Stalwart.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "STALWART",
+        "es": "INCONDICIONAL",
+        "pt": "INCONDICIONAL",
+        "ru": "ДОБЛЕСТЬ"
+      }
+    },
+    {
+      "id": "044",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "icon": "assets/icons/Expendable-Anti-tank.webp",
+      "cooldown": "70",
+      "names": {
+        "en": "EXPENDABLE ANTI-TANK",
+        "es": "ANTITANQUE DESECHABLE",
+        "pt": "ANTITANQUE DESCARTÁVEL",
+        "ru": "ОДНОРАЗОВЫЙ БРОНЕБОЙ"
+      }
+    },
+    {
+      "id": "045",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "right",
+        "right",
+        "left"
+      ],
+      "icon": "assets/icons/Recoilless-Rifle.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "RECOILLESS RIFLE",
+        "es": "RIFLE SIN RETROCESO",
+        "pt": "RIFLE SEM RECÚO",
+        "ru": "БЕЗОТКАТНАЯ ВИНТОВКА"
+      }
+    },
+    {
+      "id": "046",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/Flamethrower.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "FLAMETHROWER",
+        "es": "LANZALLAMAS",
+        "pt": "LANÇA-CHAMAS",
+        "ru": "ОГНЕМЁТ"
+      }
+    },
+    {
+      "id": "047",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "up",
+        "right"
+      ],
+      "icon": "assets/icons/Autocannon.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "AUTOCANNON",
+        "es": "CAÑON AUTOMATICO",
+        "pt": "CANHÃO AUTOMÁTICO",
+        "ru": "АВТОПУШКА"
+      }
+    },
+    {
+      "id": "048",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "down"
+      ],
+      "icon": "assets/icons/Heavy-Machine-Gun.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "HEAVY MACHINE GUN",
+        "es": "AMETRALLADORA PESADA",
+        "pt": "METRALHADORA PESADA",
+        "ru": "ТЯЖЕЛЫЙ ПУЛЕМЕТ"
+      }
+    },
+    {
+      "id": "049",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "up",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Airburst-Rocket-Launcher.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "AIRBURST ROCKET LAUNCHER",
+        "es": "LANZACOHETES DE ESTALLIDO AEREO",
+        "pt": "LANÇADOR DE FOGUETES DE EXPLOSÃO AÉREA",
+        "ru": "РАКЕТНИЦА С ПОДРЫВОМ ВОЗДУХЕ"
+      }
+    },
+    {
+      "id": "050",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Railgun.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "RAILGUN",
+        "es": "ARMA DE RIEL",
+        "pt": "CANHÃO DE RIEL",
+        "ru": "РЕЛЬСОТРОН"
+      }
+    },
+    {
+      "id": "051",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "up",
+        "down",
+        "down"
+      ],
+      "icon": "assets/icons/SPEAR-Launcher.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "SPEAR",
+        "es": "LANZA",
+        "pt": "LANÇA",
+        "ru": "КОПЬЕ"
+      }
+    },
+    {
+      "id": "052",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "left",
+        "down"
+      ],
+      "icon": "assets/icons/Grenade-Launcher.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "GRENADE LAUNCHER",
+        "es": "LANZAGRANADAS",
+        "pt": "LANÇA-GRANADAS",
+        "ru": "ГРАНАТОМЕТ"
+      }
+    },
+    {
+      "id": "053",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "down",
+        "up",
+        "left"
+      ],
+      "icon": "assets/icons/Laser-Cannon.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "LASER CANNON",
+        "es": "CAÑON LASER",
+        "pt": "CANHÃO LASER",
+        "ru": "ЛАЗЕРНАЯ ПУШКА"
+      }
+    },
+    {
+      "id": "054",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "right",
+        "down",
+        "up",
+        "left",
+        "left"
+      ],
+      "icon": "assets/icons/Arc-Thrower.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "ARC THROWER",
+        "es": "LANZAARCOS",
+        "pt": "LANÇA ARCOS",
+        "ru": "ДУГОВОЙ МЕТАТЕЛЬ"
+      }
+    },
+    {
+      "id": "055",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Quasar-Cannon.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "QUASAR CANNON",
+        "es": "CAÑON CUASAR",
+        "pt": "CANHÃO QUASAR",
+        "ru": "ПУШКА КВАЗАР"
+      }
+    },
+    {
+      "id": "056",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down",
+        "down"
+      ],
+      "icon": "assets/icons/Patriot-Exosuit.webp",
+      "cooldown": "600",
+      "names": {
+        "en": "PATRIOT EXOSUIT",
+        "es": "EXOTRAJE PATRIOTA",
+        "pt": "EXOTRAJE PATRIOTA",
+        "ru": "ЭКЗОКОСТЮМ ПАТРИОТ"
+      }
+    },
+    {
+      "id": "057",
+      "type": "mission",
+      "keysCode": [
+        "down",
+        "up",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/Super-earth-flag.webp",
+      "cooldown": "1",
+      "names": {
+        "en": "SUPER EARTH FLAG",
+        "es": "BANDERA DE SÚPER TIERRA",
+        "pt": "BANDEIRA DA SUPER TERRA",
+        "ru": "СУПЕР ФЛАГ ЗЕМЛИ"
+      }
+    },
+    {
+      "id": "058",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "up"
+      ],
+      "icon": "assets/icons/anti-tank-mines.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "ANTI-TANK MINES",
+        "es": "MINAS ANTITANQUE",
+        "pt": "MINAS ANTITANQUE",
+        "ru": "ПРОТИВОТАНКОВЫЕ МИНЫ"
+      }
+    },
+    {
+      "id": "059",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "icon": "assets/icons/Orbital-napalm-barrage.webp",
+      "cooldown": "240",
+      "names": {
+        "en": "ORBITAL NAPALM BARRAGE",
+        "es": "DESCARGA DE NAPALM ORBITAL",
+        "pt": "BOMBARDEIO ORBITAL DE NAPALM",
+        "ru": "ОРБИТАЛЬНЫЙ УДАР НАПАЛМОМ"
+      }
+    },
+    {
+      "id": "060",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/mls-4x-commando.webp",
+      "cooldown": "120",
+      "names": {
+        "en": "MLS-4X COMMANDO",
+        "es": "MLS-4X COMANDO",
+        "pt": "MLS-4X COMANDO",
+        "ru": "КОММАНДОС"
+      }
+    },
+    {
+      "id": "061",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "up",
+        "left",
+        "down"
+      ],
+      "icon": "assets/icons/emancipator-exosuit.webp",
+      "cooldown": "600",
+      "names": {
+        "en": "EMANCIPATOR EXOSUIT",
+        "es": "EXOTRAJE EMANCIPADOR",
+        "pt": "EXOTRAJE EMANCIPADOR",
+        "ru": "ЭКЗОКОСТЮМ БЛАГОДЕТЕЛЬ"
+      }
+    },
+    {
+      "id": "062",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "down",
+        "left"
+      ],
+      "icon": "assets/icons/sterilizer.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "TX-41 STERILIZER",
+        "es": "TX-41 ESTERILIZADOR",
+        "pt": "TX-41 ESTERILIZADOR",
+        "ru": "TX-41 СТЕРИЛИЗАТОР"
+      }
+    },
+    {
+      "id": "063",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up"
+      ],
+      "icon": "assets/icons/dogbreath.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "AX/TX-13 GUARD DOG DOG BREATH",
+        "es": "AX/TX-13 PERRO GUARDIAN ALIENTO DE PERRO",
+        "pt": "AX/TX-13 CÃO DE GUARDA HÁLITO DE CACHORRO",
+        "ru": "AX/TX-13 СТОРОЖЕВОЙ ПЁС СОБАЧЬЕ ДЫХАНИЕ"
+      }
+    },
+    {
+      "id": "064",
+      "type": "weapons",
+      "keysCode": [
+        "down",
+        "down",
+        "up",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/wasp-launcher.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "STA-X3 W.A.S.P. LAUNCHER",
+        "es": "LANZADOR STA-X3 W.A.S.P.",
+        "pt": "LANÇADOR STA-X3 W.A.S.P.",
+        "ru": "РАКЕТНАЯ УСТАНОВКА STA-X3 W.A.S.P."
+      }
+    },
+    {
+      "id": "065",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "up",
+        "down",
+        "down",
+        "right"
+      ],
+      "icon": "assets/icons/Orbital_Railcannon_Strike_Stratagem.webp",
+      "cooldown": "210",
+      "names": {
+        "en": "ORBITAL RAILCANNON STRIKE",
+        "es": "ATAQUE DE CAÑÓN FERROVIARIO ORBITAL",
+        "pt": "ATAQUE DE CANHÃO FERROVIÁRIO ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ УДАР РЕЛЬСОТРОНОМ"
+      }
+    },
+    {
+      "id": "066",
+      "type": "weapons",
+      "keysCode": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "right",
+        "down",
+        "up"
+      ],
+      "icon": "assets/icons/M-102_Fast_Recon_Vehicle_Stratagem.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "M-102 FAST RECONNAISSANCE VEHICLE",
+        "es": "VEHÍCULO DE RECONOCIMIENTO RÁPIDO M-102",
+        "pt": "VEÍCULO DE RECONHECIMENTO RÁPIDO M-102",
+        "ru": "БЫСТРАЯ РАЗВЕДЫВАТЕЛЬНАЯ МАШИНА M-102"
+      }
+    },
+    {
+      "id": "067",
+      "type": "orbital",
+      "keysCode": [
+        "right",
+        "right",
+        "left",
+        "down"
+      ],
+      "icon": "assets/icons/Orbital_EMS_Strike_Stratagem_Icon.webp",
+      "cooldown": "75",
+      "names": {
+        "en": "ORBITAL EMS STRIKE",
+        "es": "ATAQUE EMS ORBITAL",
+        "pt": "ATAQUE EMS ORBITAL",
+        "ru": "ОРБИТАЛЬНЫЙ EMS-УДАР"
+      }
+    },
+    {
+      "id": "068",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/GL-21_Grenadier_Battlement_Stratagem_Icon.webp",
+      "cooldown": "120",
+      "names": {
+        "en": "E/GL-21 GRENADIER BATTLEMENT",
+        "es": "FORTIFICACIÓN GRENADIER E/GL-21",
+        "pt": "FORTIFICAÇÃO GRENADIER E/GL-21",
+        "ru": "ГРАНАТОМЁТНАЯ БАСТИОННАЯ УСТАНОВКА E/GL-21"
+      }
+    },
+    {
+      "id": "069",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "right",
+        "down",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/GL-21_Grenadier_Battlement_Stratagem_Icon.webp",
+      "cooldown": "120",
+      "names": {
+        "en": "E/GL-21 GRENADIER BATTLEMENT",
+        "es": "FORTIFICACIÓN GRENADIER E/GL-21",
+        "pt": "FORTIFICAÇÃO GRENADIER E/GL-21",
+        "ru": "ГРАНАТОМЁТНАЯ БАСТИОННАЯ УСТАНОВКА E/GL-21"
+      }
+    },
+    {
+      "id": "070",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "left",
+        "up",
+        "up"
+      ],
+      "icon": "assets/icons/MD-17_Anti-Tank_Mines_Stratagem_Icon.webp",
+      "cooldown": "120",
+      "names": {
+        "en": "MD-17 ANTI-TANK MINES",
+        "es": "MINAS ANTITANQUE MD-17",
+        "pt": "MINAS ANTI-TANQUE MD-17",
+        "ru": "ПРОТИВОТАНКОВЫЕ МИНЫ MD-17"
+      }
+    },
+    {
+      "id": "071",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "left",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Gas_Minefield_Stratagem_Icon.webp",
+      "cooldown": "120",
+      "names": {
+        "en": "MD-8 GAS MINES",
+        "es": "MINAS DE GAS MD-8",
+        "pt": "MINAS DE GÁS MD-8",
+        "ru": "ГАЗОВЫЕ МИНЫ MD-8"
+      }
+    },
+    {
+      "id": "072",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "up",
+        "up"
+      ],
+      "icon": "assets/icons/SH-51_Directional_Shield_Stratagem_Icon.webp",
+      "cooldown": "300",
+      "names": {
+        "en": "SH-51 DIRECTIONAL SHIELD",
+        "es": "ESCUDO DIRECCIONAL SH-51",
+        "pt": "ESCUDO DIRECIONAL SH-51",
+        "ru": "НАПРАВЛЕННЫЙ ЩИТ SH-51"
+      }
+    },
+    {
+      "id": "073",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "left",
+        "right",
+        "right",
+        "right"
+      ],
+      "icon": "assets/icons/E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.webp",
+      "cooldown": "180",
+      "names": {
+        "en": "E/AT-12 ANTI-TANK EMPLACEMENT",
+        "es": "FORTIFICACIÓN ANTITANQUE E/AT-12",
+        "pt": "FORTIFICAÇÃO ANTI-TANQUE E/AT-12",
+        "ru": "ПРОТИВОТАНКОВАЯ УКРЕПЛЕННАЯ ТОЧКА E/AT-12"
+      }
+    },
+    {
+      "id": "074",
+      "type": "defenses",
+      "keysCode": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "up",
+        "up"
+      ],
+      "icon": "assets/icons/A_FLAM-40_Flame_Sentry_Stratagem_Icon.webp",
+      "cooldown": "150",
+      "names": {
+        "en": "A/FLAM-40 FLAME SENTRY",
+        "es": "CENTINELA LANZALLAMAS A/FLAM-40",
+        "pt": "SENTINELA LANÇA-CHAMAS A/FLAM-40",
+        "ru": "ОГНЕМЁТНАЯ ТУРЕЛЬ A/FLAM-40"
+      }
+    },
+    {
+      "id": "075",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "right",
+        "up",
+        "up",
+        "up"
+      ],
+      "icon": "assets/icons/Portable_Hellbomb_Stratagem_Icon.webp",
+      "cooldown": "300",
+      "names": {
+        "en": "B-100 PORTABLE HELLBOMB",
+        "es": "BOMBA INFERNAL PORTÁTIL B-100",
+        "pt": "BOMBA DO INFERNO PORTÁTIL B-100",
+        "ru": "ПОРТАТИВНАЯ АДСКАЯ БОМБА B-100"
+      }
+    },
+    {
+      "id": "076",
+      "type": "backpacks",
+      "keysCode": [
+        "down",
+        "up",
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "icon": "assets/icons/Hover_Pack_Stratagem_Icon.webp",
+      "cooldown": "480",
+      "names": {
+        "en": "LIFT-860 HOVER PACK",
+        "es": "MOCHILA FLOTANTE LIFT-860",
+        "pt": "MOCHILA FLUTUANTE LIFT-860",
+        "ru": "РЕАКТИВНЫЙ РАНЕЦ LIFT-860"
+      }
+    }
+  ]
+}
