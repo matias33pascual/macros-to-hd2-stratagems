@@ -103,7 +103,7 @@
       "cooldown": "11",
       "names": {
         "en": "SEAF ARTILLERY",
-        "es": "ARTILLERIA SEAF",
+        "es": "ARTILLERÍA SEAF",
         "pt": "ARTILHARIA SEAF",
         "ru": "СТАЦИОНАРНАЯ АРТИЛЛЕРИЯ"
       }
@@ -124,7 +124,7 @@
       "cooldown": "150",
       "names": {
         "en": "EAGLE REARM",
-        "es": "RECARGA DE AGUILA",
+        "es": "RECARGA DE ÁGUILA",
         "pt": "RECARGA DE ÁGUIA",
         "ru": "ОРЁЛ ПЕРЕЗАРЯДКА"
       }
@@ -143,7 +143,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE STRAFING RUN",
-        "es": "BARRIDA DE AMETRALLADORA DE AGUILA",
+        "es": "BARRIDA DE AMETRALLADORA DE ÁGUILA",
         "pt": "VARREDURA DE METRALHADORA DE ÁGUIA",
         "ru": "ОРЁЛ БРЕЮЩИЙ ПОЛЁТ"
       }
@@ -163,7 +163,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE AIR STRIKE",
-        "es": "ATAQUE AEREO DE AGUILA",
+        "es": "ATAQUE AÉREO DE ÁGUILA",
         "pt": "ATAQUE AÉREO DE ÁGUIA",
         "ru": "ОРЁЛ ВОЗДУШНЫЙ УДАР"
       }
@@ -184,7 +184,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE CLUSTER BOMB",
-        "es": "BOMBA DE RACIMO DE AGUILA",
+        "es": "BOMBA DE RACIMO DE ÁGUILA",
         "pt": "BOMBA DE FRAGMENTAÇÃO DE ÁGUIA",
         "ru": "ОРЁЛ КЛАСТЕРНЫЙ УДАР"
       }
@@ -204,7 +204,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE NAPALM AIR STRIKE",
-        "es": "ATAQUE AEREO DE NAPALM DE AGUILA",
+        "es": "ATAQUE AÉREO DE NAPALM DE ÁGUILA",
         "pt": "ATAQUE AÉREO DE NAPALM DE ÁGUIA",
         "ru": "ОРЁЛ УДАР НАПАЛМОМ"
       }
@@ -224,7 +224,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE SMOKE ATTACK",
-        "es": "ATAQUE DE HUMO DE AGUILA",
+        "es": "ATAQUE DE HUMO DE ÁGUILA",
         "pt": "ATAQUE DE FUMAÇA DE ÁGUIA",
         "ru": "ОРЁЛ ДЫМОВАЯ ЗАВЕСА"
       }
@@ -244,7 +244,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE 110 MM ROCKET PODS",
-        "es": "CAPSULAS DE COHETES DE 110 MM DE AGUILA",
+        "es": "CÁPSULAS DE COHETES DE 110 MM DE ÁGUILA",
         "pt": "CÁPSULAS DE FOGUETES DE 110 MM DE ÁGUIA",
         "ru": "ОРЁЛ 110 MM РАКЕТНЫЙ УДАР"
       }
@@ -265,7 +265,7 @@
       "cooldown": "8",
       "names": {
         "en": "EAGLE 500 KG BOMB",
-        "es": "BOMBA DE 500 KG DE AGUILA",
+        "es": "BOMBA DE 500 KG DE ÁGUILA",
         "pt": "BOMBA DE 500 KG DE ÁGUIA",
         "ru": "ОРЁЛ 500 KГ БОМБА"
       }
@@ -330,7 +330,7 @@
       "cooldown": "480",
       "names": {
         "en": "ROVER GUARD DOG",
-        "es": "ROVER PERRO GUARDIAN",
+        "es": "ROVER PERRO GUARDIÁN",
         "pt": "ROVER CÃO DE GUARDA",
         "ru": "ЛАЗЕРНЫЙ СТОРОЖЕВОЙ ПЕС"
       }
@@ -352,7 +352,7 @@
       "cooldown": "300",
       "names": {
         "en": "BALLISTIC SHIELD PACK",
-        "es": "MOCHILA DE ESCUDO BALISTICO",
+        "es": "MOCHILA DE ESCUDO BALÍSTICO",
         "pt": "MOCHILA DE ESCUDO BALÍSTICO",
         "ru": "БАЛЛИСТИЧЕСКИЙ ЩИТ"
       }
@@ -396,7 +396,7 @@
       "cooldown": "480",
       "names": {
         "en": "GUARD DOG",
-        "es": "PERRO GUARDIAN",
+        "es": "PERRO GUARDIÁN",
         "pt": "CÃO DE GUARDA",
         "ru": "СТОРОЖЕВОЙ ПЕС"
       }
@@ -440,7 +440,7 @@
       "cooldown": "90",
       "names": {
         "en": "SHIELD GENERATOR RELAY",
-        "es": "RELE GENERADOR DE ESCUDO",
+        "es": "RELÉ GENERADOR DE ESCUDO",
         "pt": "RELE GERADOR DE ESCUDO",
         "ru": "СТАЦИОНАРНЫЙ ГЕНЕРАТОР ЩИТА"
       }
@@ -523,7 +523,7 @@
       "cooldown": "120",
       "names": {
         "en": "MACHINE GUN SENTRY",
-        "es": "VIGIA AMETRALLADORA",
+        "es": "VIGÍA AMETRALLADORA",
         "pt": "SENTINELA METRALHADORA",
         "ru": "ПУЛЕМЁТНАЯ ТУРЕЛЬ"
       }
@@ -543,7 +543,7 @@
       "cooldown": "180",
       "names": {
         "en": "GATLING SENTRY",
-        "es": "VIGIA GATLING",
+        "es": "VIGÍA GATLING",
         "pt": "SENTINELA GATLING",
         "ru": "ТУРЕЛЬ ГАТЛИНГА"
       }
@@ -564,7 +564,7 @@
       "cooldown": "180",
       "names": {
         "en": "MORTAR SENTRY",
-        "es": "VIGIA MORTERO",
+        "es": "VIGÍA MORTERO",
         "pt": "SENTINELA MORTEIRO",
         "ru": "МИНОМЁТНАЯ ТУРЕЛЬ"
       }
@@ -586,7 +586,7 @@
       "cooldown": "180",
       "names": {
         "en": "AUTOCANNON SENTRY",
-        "es": "VIGIA DE CAÑON AUTOMATICO",
+        "es": "VIGÍA DE CAÑÓN AUTOMÁTICO",
         "pt": "SENTINELA CANHÃO AUTOMÁTICO",
         "ru": "ТУРЕЛЬ С АВТОПУШКОЙ"
       }
@@ -607,7 +607,7 @@
       "cooldown": "180",
       "names": {
         "en": "ROCKET SENTRY",
-        "es": "VIGIA DE COHETES",
+        "es": "VIGÍA DE COHETES",
         "pt": "SENTINELA FOGUETES",
         "ru": "РАКЕТНАЯ ТУРЕЛЬ"
       }
@@ -628,7 +628,7 @@
       "cooldown": "180",
       "names": {
         "en": "OEM MORTAR SENTRY",
-        "es": "VIGIA MORTERO OEM",
+        "es": "VIGÍA MORTERO OEM",
         "pt": "SENTINELA MORTEIRO OEM",
         "ru": "ЭМИ-МИНОМЕТНАЯ ТУРЕЛЬ"
       }
@@ -668,7 +668,7 @@
       "cooldown": "100",
       "names": {
         "en": "ORBITAL AIRBURST ATTACK",
-        "es": "ATAQUE DE EXPLOSION AEREA ORBITAL",
+        "es": "ATAQUE DE EXPLOSIÓN AÉREA ORBITAL",
         "pt": "ATAQUE DE EXPLOSÃO AÉREA ORBITAL",
         "ru": "ОРБИТАЛЬНАЯ ВОЗДУШНАЯ БОМБА"
       }
@@ -756,7 +756,7 @@
       "cooldown": "300",
       "names": {
         "en": "ORBITAL LASER",
-        "es": "LASER ORBITAL",
+        "es": "LÁSER ORBITAL",
         "pt": "LASER ORBITAL",
         "ru": "ОРБИТАЛЬНЫЙ ЛАЗЕР"
       }
@@ -777,7 +777,7 @@
       "cooldown": "210",
       "names": {
         "en": "ORBITAL RAILGUN STRIKE",
-        "es": "ATAQUE CON CAÑON DE RIEL ORBITAL",
+        "es": "ATAQUE CON CAÑÓN DE RIEL ORBITAL",
         "pt": "ATAQUE COM CANHÃO DE RIEL ORBITAL",
         "ru": "ОРБИТАЛЬНЫЙ РЕЛЬСОТРОННЫЙ ЗАЛП"
       }
@@ -796,7 +796,7 @@
       "cooldown": "90",
       "names": {
         "en": "ORBITAL PRECISION STRIKE",
-        "es": "ATAQUE DE PRECISION ORBITAL",
+        "es": "ATAQUE DE PRECISIÓN ORBITAL",
         "pt": "ATAQUE DE PRECISÃO ORBITAL",
         "ru": "ОРБИТАЛЬНЫЙ ВЫСОКОТОЧНЫЙ УДАР"
       }
@@ -1004,7 +1004,7 @@
       "cooldown": "480",
       "names": {
         "en": "AUTOCANNON",
-        "es": "CAÑON AUTOMATICO",
+        "es": "CAÑÓN AUTOMÁTICO",
         "pt": "CANHÃO AUTOMÁTICO",
         "ru": "АВТОПУШКА"
       }
@@ -1046,7 +1046,7 @@
       "cooldown": "480",
       "names": {
         "en": "AIRBURST ROCKET LAUNCHER",
-        "es": "LANZACOHETES DE ESTALLIDO AEREO",
+        "es": "LANZACOHETES DE ESTALLIDO AÉREO",
         "pt": "LANÇADOR DE FOGUETES DE EXPLOSÃO AÉREA",
         "ru": "РАКЕТНИЦА С ПОДРЫВОМ ВОЗДУХЕ"
       }
@@ -1131,7 +1131,7 @@
       "cooldown": "480",
       "names": {
         "en": "LASER CANNON",
-        "es": "CAÑON LASER",
+        "es": "CAÑÓN LÁSER",
         "pt": "CANHÃO LASER",
         "ru": "ЛАЗЕРНАЯ ПУШКА"
       }
@@ -1174,7 +1174,7 @@
       "cooldown": "480",
       "names": {
         "en": "QUASAR CANNON",
-        "es": "CAÑON CUASAR",
+        "es": "CAÑÓN CUASAR",
         "pt": "CANHÃO QUASAR",
         "ru": "ПУШКА КВАЗАР"
       }
@@ -1346,7 +1346,7 @@
       "cooldown": "480",
       "names": {
         "en": "AX/TX-13 GUARD DOG DOG BREATH",
-        "es": "AX/TX-13 PERRO GUARDIAN ALIENTO DE PERRO",
+        "es": "AX/TX-13 PERRO GUARDIÁN ALIENTO DE PERRO",
         "pt": "AX/TX-13 CÃO DE GUARDA HÁLITO DE CACHORRO",
         "ru": "AX/TX-13 СТОРОЖЕВОЙ ПЁС СОБАЧЬЕ ДЫХАНИЕ"
       }
@@ -1662,7 +1662,7 @@
       "cooldown": "480",
       "names": {
         "en": "AX/ARC-3 K-9",
-        "es": "PERRO GUARDIAN K-9 AX/ARC-3",
+        "es": "PERRO GUARDIÁN K-9 AX/ARC-3",
         "pt": "CÃO DE GUARDA K-9 AX/ARC-3",
         "ru": "СТОРОЖЕВОЙ ПЁС K-9 AX/ARC-3"
       }
@@ -2187,7 +2187,7 @@
       "cooldown": "15",
       "names": {
         "en": "EAGLE GAS AIRSTRIKE",
-        "es": "ATAQUE AEREO DE GAS DE AGUILA",
+        "es": "ATAQUE AÉREO DE GAS DE ÁGUILA",
         "pt": "ATAQUE AÉREO DE GÁS DE ÁGUIA",
         "ru": "ОРЁЛ ГАЗОВЫЙ УДАР"
       }
