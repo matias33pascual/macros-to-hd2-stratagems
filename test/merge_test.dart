@@ -4,6 +4,8 @@ import 'package:test/test.dart';
 CatalogEntry _entry({
   String id = '000',
   String? wikiPage,
+  String? wikiName,
+  bool deprecated = false,
   List<String> keys = const ['up', 'down'],
   String icon = 'icons/laser.svg',
   Map<String, String> names = const {
@@ -16,6 +18,8 @@ CatalogEntry _entry({
   return CatalogEntry(
     id: id,
     wikiPage: wikiPage,
+    wikiName: wikiName ?? wikiPage,
+    deprecated: deprecated,
     type: 'orbital',
     keysCode: keys,
     icon: icon,
@@ -43,6 +47,8 @@ MergeResult _merge(
   List<WikiStratagem> pages, {
   int version = 1,
   String gameVersion = '1.007.000',
+  int? nextId,
+  Set<String> excluded = const {},
   List<String> icons = const ['Orbital Cannons/Laser.svg'],
 }) {
   return mergeCatalog(
@@ -50,7 +56,9 @@ MergeResult _merge(
       version: version,
       gameVersion: gameVersion,
       entries: entries,
+      nextId: nextId,
     ),
+    excluded: excluded,
     wiki: WikiSnapshot(stratagems: pages, rejected: const {}),
     iconIndex: IconIndex(icons),
   );
@@ -101,10 +109,11 @@ void main() {
 
     final added = result.catalog.entries.last;
     expect(added.id, '008');
-    expect(added.names, {'en': 'Orbital Flare'});
+    expect(added.names, {'en': 'ORBITAL FLARE'});
+    expect(added.wikiName, 'Orbital Flare');
     expect(added.cooldown, '90');
     expect(result.report.newEntries, hasLength(1));
-    expect(result.report.missingTranslations.single, contains('Orbital Flare'));
+    expect(result.report.missingTranslations.single, contains('ORBITAL FLARE'));
     expect(result.catalog.version, 2);
   });
 
@@ -197,6 +206,86 @@ void main() {
     );
 
     expect(result.report.withoutIconMatch, hasLength(1));
+  });
+
+  test('sets wikiName from the wiki page', () {
+    final result = _merge(
+      [_entry(wikiPage: 'Laser', wikiName: 'Old name')],
+      [_wiki('Laser')],
+    );
+
+    expect(result.catalog.entries.single.wikiName, 'Laser');
+  });
+
+  test('an entry without wiki page gets no wikiName', () {
+    final result = _merge([
+      _entry(names: {'en': 'MYSTERY'}, keys: ['left']),
+    ], []);
+
+    expect(result.catalog.entries.single.wikiName, isNull);
+  });
+
+  test('never overwrites existing names', () {
+    final result = _merge(
+      [
+        _entry(wikiPage: 'Laser', names: {'en': 'MY LASER', 'es': 'MI LÁSER'}),
+      ],
+      [_wiki('Laser')],
+    );
+
+    expect(result.catalog.entries.single.names, {
+      'en': 'MY LASER',
+      'es': 'MI LÁSER',
+    });
+  });
+
+  test('preserves deprecated', () {
+    final result = _merge(
+      [_entry(wikiPage: 'Laser', deprecated: true), _entry(id: '001')],
+      [_wiki('Laser')],
+    );
+
+    expect(result.catalog.entries.map((entry) => entry.deprecated), [
+      true,
+      false,
+    ]);
+    expect(
+      result.catalog.entries.last.toJson().containsKey('deprecated'),
+      isFalse,
+    );
+  });
+
+  test('an excluded page is never added', () {
+    final result = _merge(
+      [_entry(wikiPage: 'Laser')],
+      [_wiki('Laser'), _wiki('Orbital Confetti')],
+      excluded: {'Orbital Confetti'},
+    );
+
+    expect(result.catalog.entries, hasLength(1));
+    expect(result.report.skippedWikiPages.single, contains('excluded'));
+  });
+
+  test('a retired id is not reused', () {
+    final result = _merge(
+      [_entry(id: '005', wikiPage: 'Laser')],
+      [_wiki('Laser'), _wiki('Orbital Flare')],
+      nextId: 7,
+    );
+
+    expect(result.catalog.entries.last.id, '007');
+    expect(result.catalog.nextId, 8);
+  });
+
+  test('nextId survives a run without new entries', () {
+    final result = _merge(
+      [_entry(id: '005', wikiPage: 'Laser')],
+      [_wiki('Laser')],
+      nextId: 7,
+    );
+
+    expect(result.catalog.nextId, 7);
+    expect(result.catalog.version, 1);
   });
 
   test('encode and decode round-trip', () {

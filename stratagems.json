@@ -1,6 +1,7 @@
 {
   "version": 3,
   "gameVersion": "1.007.202",
+  "nextId": 107,
   "stratagems": [
     {
       "id": "000",

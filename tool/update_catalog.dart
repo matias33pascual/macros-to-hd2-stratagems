@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:macros_to_hd2_stratagems/stratagems_catalog.dart';
 
 const String catalogFile = 'stratagems.json';
+const String excludedFile = 'excluded.json';
 const String aliasesFile = 'icon_aliases.json';
 
 /// Refreshes `stratagems.json` and `icons/` from the wiki and the icons repo.
@@ -20,12 +21,16 @@ Future<void> main() async {
     final aliases = Map<String, String>.from(
       jsonDecode(File('${root.path}/$aliasesFile').readAsStringSync()) as Map,
     );
+    final excluded = Set<String>.from(
+      jsonDecode(File('${root.path}/$excludedFile').readAsStringSync()) as List,
+    );
     final iconIndex = await iconClient.fetchIndex(aliases: aliases);
     final wiki = await WikiClient(client, log: stdout.writeln).fetchSnapshot();
     final result = mergeCatalog(
       existing: existing,
       wiki: wiki,
       iconIndex: iconIndex,
+      excluded: excluded,
     );
     for (final source in result.icons.values) {
       if (await iconClient.download(source, root)) {

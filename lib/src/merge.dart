@@ -46,6 +46,7 @@ MergeResult mergeCatalog({
   required Catalog existing,
   required WikiSnapshot wiki,
   required IconIndex iconIndex,
+  Set<String> excluded = const {},
 }) {
   final report = MergeReport();
   final pages = {for (final page in wiki.stratagems) page.page: page};
@@ -57,14 +58,15 @@ MergeResult mergeCatalog({
   final updated = [
     for (final entry in mapped) _applyWiki(entry, pages, report),
   ];
-  final added = _newEntries(
-    existing: existing.entries,
+  final newEntries = _newEntries(
+    firstId: existing.nextId,
+    excluded: excluded,
     candidates: wiki.stratagems.where((page) => !usedPages.contains(page.page)),
     report: report,
   );
   final withIcons = <String, IconSource>{};
   final entries = [
-    for (final entry in [...updated, ...added])
+    for (final entry in [...updated, ...newEntries.entries])
       _applyIcon(entry, iconIndex, withIcons, report),
   ];
   _reportWikiPages(wiki, report);
@@ -76,12 +78,14 @@ MergeResult mergeCatalog({
     version: existing.version,
     gameVersion: gameVersion,
     entries: entries,
+    nextId: newEntries.nextId,
   );
   if (!catalog.sameContentAs(existing)) {
     catalog = Catalog(
       version: existing.version + 1,
       gameVersion: gameVersion,
       entries: entries,
+      nextId: newEntries.nextId,
     );
   }
   return MergeResult(catalog: catalog, report: report, icons: withIcons);
@@ -152,7 +156,15 @@ CatalogEntry _applyWiki(
 ) {
   final page = entry.wikiPage;
   if (page == null) return entry;
-  final wiki = pages[page];
+  return _applyKeys(entry.copyWith(wikiName: page), pages[page], report);
+}
+
+CatalogEntry _applyKeys(
+  CatalogEntry entry,
+  WikiStratagem? wiki,
+  MergeReport report,
+) {
+  final page = entry.wikiPage;
   if (wiki == null) {
     report.missingInWiki.add('${entry.id} ${entry.englishName} ($page)');
     return entry;
@@ -165,21 +177,24 @@ CatalogEntry _applyWiki(
   return entry.copyWith(keysCode: wiki.keysCode);
 }
 
-List<CatalogEntry> _newEntries({
-  required List<CatalogEntry> existing,
+class _NewEntries {
+  const _NewEntries(this.entries, this.nextId);
+
+  final List<CatalogEntry> entries;
+  final int nextId;
+}
+
+_NewEntries _newEntries({
+  required int firstId,
+  required Set<String> excluded,
   required Iterable<WikiStratagem> candidates,
   required MergeReport report,
 }) {
-  var nextId =
-      existing.fold<int>(-1, (max, entry) {
-        final id = int.tryParse(entry.id) ?? -1;
-        return id > max ? id : max;
-      }) +
-      1;
+  var nextId = firstId;
   final added = <CatalogEntry>[];
   for (final page in candidates) {
     final type = wikiTypeToCatalogType[page.type?.toLowerCase()];
-    final skipReason = _skipReason(page, type);
+    final skipReason = _skipReason(page, type, excluded);
     if (skipReason != null || type == null) {
       report.skippedWikiPages.add('${page.page} ($skipReason)');
       continue;
@@ -190,16 +205,17 @@ List<CatalogEntry> _newEntries({
       CatalogEntry(
         id: id,
         wikiPage: page.page,
+        wikiName: page.page,
         type: type,
         keysCode: page.keysCode,
         icon: '',
         cooldown: page.cooldown!,
-        names: {fallbackLanguage: page.page},
+        names: {fallbackLanguage: page.page.toUpperCase()},
       ),
     );
     report.newEntries.add('$id ${page.page}');
   }
-  return added;
+  return _NewEntries(added, nextId);
 }
 
 /// "April Fools/Joke" is a subpage; "A/MG-43 Sentry" is a designator.
@@ -208,7 +224,8 @@ bool _isSubpage(String title) {
   return slash > 0 && title.substring(0, slash).contains(' ');
 }
 
-String? _skipReason(WikiStratagem page, String? type) {
+String? _skipReason(WikiStratagem page, String? type, Set<String> excluded) {
+  if (excluded.contains(page.page)) return 'excluded';
   if (_isSubpage(page.page)) return 'subpage';
   if (type == null) return 'type: ${page.type}';
   if (page.cooldown == null) return 'no cooldown';
