@@ -59,6 +59,15 @@ The script (one request at a time, 1 s apart):
 
 Pages with an unknown direction, several different codes or no code are rejected and reported, never guessed. New entries need their `es`, `pt` and `ru` names added by hand.
 
+## Checking for new stratagems
+
+- When: after each game patch or new Warbond (Steam news / patch notes for Helldivers 2), and before each app release.
+- Where to look: helldivers.wiki.gg `Stratagems` page and the pages using `Template:Stratagem_code` (what the script reads); the icons repo for new SVGs.
+- What to analyze: the script report sections (new entries, changed codes, mappings, no icon, missing translations, skipped and rejected pages). Check each new type and key code on its wiki page; write `es`, `pt`, `ru` names by hand; move event or joke stratagems to `excluded.json`; add an `icon_aliases.json` entry when the icon has another name.
+- Where to save: `stratagems.json`, `icons/`, `excluded.json`, `icon_aliases.json`. Run `dart analyze && dart test`, commit on `master`; Mat pushes (the app reads raw `master`, so a push reaches every user through "Update stratagems").
+- App bundle: copy `stratagems.json` and `icons/` into the app's `assets/catalog/` so fresh installs ship the same version.
+- No changes: if `git diff` is empty after the run, nothing to commit; note the wiki `gameVersion` seen.
+
 ## Attribution
 
 - Key codes, names, types and cooldowns: [helldivers.wiki.gg](https://helldivers.wiki.gg) (data only; wiki images are not copied).
