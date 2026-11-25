@@ -9,6 +9,7 @@ class MergeReport {
   final List<String> withoutIconMatch = [];
   final List<String> appIconEntries = [];
   final List<String> missingTranslations = [];
+  final List<String> missingShortNames = [];
   final List<String> skippedWikiPages = [];
   final List<String> rejectedWikiPages = [];
 
@@ -26,6 +27,7 @@ class MergeReport {
       'Entries without icon match': withoutIconMatch,
       'Entries still using an app icon path (assets/icons/)': appIconEntries,
       'Entries missing es/pt/ru names (fall back to en)': missingTranslations,
+      'Entries missing short names (fall back to names)': missingShortNames,
       'Wiki pages skipped (not a cataloged stratagem type)': skippedWikiPages,
       'Wiki pages rejected (ambiguous or invalid)': rejectedWikiPages,
     };

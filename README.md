@@ -8,7 +8,7 @@ Helldivers 2 stratagems catalog used by Macros to HD2 Game, plus the script that
 
 ```json
 {
-  "version": 2,
+  "version": 5,
   "gameVersion": "1.007.200",
   "nextId": 107,
   "stratagems": [
@@ -21,6 +21,7 @@ Helldivers 2 stratagems catalog used by Macros to HD2 Game, plus the script that
       "icon": "icons/orbital-gatling-barrage.svg",
       "cooldown": "70",
       "names": { "en": "...", "es": "...", "pt": "...", "ru": "..." },
+      "shortNames": { "en": "...", "es": "...", "pt": "...", "ru": "..." },
       "deprecated": true
     }
   ]
@@ -38,6 +39,11 @@ Helldivers 2 stratagems catalog used by Macros to HD2 Game, plus the script that
 - `cooldown`: seconds, as a string.
 - `wikiName`: English name exactly as the wiki shows it (the page title). Kept in sync on every run; absent when there is no `wikiPage`.
 - `names`: display names for `en`, `es`, `pt`, `ru`, in natural case (English in Title Case like the wiki; Spanish, Portuguese and Russian in sentence case; codes, acronyms and proper names keep their case). The script never overwrites them; a new entry gets `en` from `wikiName` and the other languages are reported as missing, to be written by hand.
+- `shortNames`: what the player says aloud in the app's voice commands (`en`, `es`, `pt`, `ru`), written by hand and optional (consumers fall back to `names`; the script never overwrites it and reports entries missing it). Rules:
+  - 1-3 words, no designators or codes (`TX-41`, `MK XVI`), no digits (numbers as words), no `Eagle`/`Orbital` prefix unless needed to tell two apart.
+  - Unique per language among non-deprecated entries once lowercased and accent-stripped; avoid one name inside another.
+  - `ru` in Cyrillic only (brand words transliterated); `es` neutral; `pt` Brazilian.
+  - Every word must exist in that language's Vosk model vocabulary (symbol table of `graph/Gr.fst`; `Gr.fst` at the root for `pt`), because Vosk ignores unknown grammar words.
 - `deprecated`: `true` on legacy duplicates the app keeps for saved missions but hides; omitted otherwise. The script preserves it.
 
 ## Update
@@ -57,13 +63,13 @@ The script (one request at a time, 1 s apart):
 - prints a report: new entries, changed codes, mappings, entries without icon, missing translations, skipped and rejected wiki pages;
 - never adds the pages listed in `excluded.json` (event or joke stratagems, e.g. `Orbital Confetti`); to retire an entry, remove it from `stratagems.json`, add its page title there and keep `nextId`.
 
-Pages with an unknown direction, several different codes or no code are rejected and reported, never guessed. New entries need their `es`, `pt` and `ru` names added by hand.
+Pages with an unknown direction, several different codes or no code are rejected and reported, never guessed. New entries need their `es`, `pt` and `ru` names and their `shortNames` added by hand.
 
 ## Checking for new stratagems
 
 - When: after each game patch or new Warbond (Steam news / patch notes for Helldivers 2), and before each app release.
 - Where to look: helldivers.wiki.gg `Stratagems` page and the pages using `Template:Stratagem_code` (what the script reads); the icons repo for new SVGs.
-- What to analyze: the script report sections (new entries, changed codes, mappings, no icon, missing translations, skipped and rejected pages). Check each new type and key code on its wiki page; write `es`, `pt`, `ru` names by hand; move event or joke stratagems to `excluded.json`; add an `icon_aliases.json` entry when the icon has another name.
+- What to analyze: the script report sections (new entries, changed codes, mappings, no icon, missing translations, skipped and rejected pages). Check each new type and key code on its wiki page; write `es`, `pt`, `ru` names and `shortNames` in the 4 languages by hand (words the voice models know); move event or joke stratagems to `excluded.json`; add an `icon_aliases.json` entry when the icon has another name.
 - Where to save: `stratagems.json`, `icons/`, `excluded.json`, `icon_aliases.json`. Run `dart analyze && dart test`, commit on `master`; Mat pushes (the app reads raw `master`, so a push reaches every user through "Update stratagems").
 - App bundle: copy `stratagems.json` and `icons/` into the app's `assets/catalog/` so fresh installs ship the same version.
 - No changes: if `git diff` is empty after the run, nothing to commit; note the wiki `gameVersion` seen.

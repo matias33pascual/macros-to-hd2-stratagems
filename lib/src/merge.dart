@@ -277,6 +277,15 @@ void _reportMissingTranslations(
         '${entry.id} ${entry.englishName}: ${missing.join(', ')}',
       );
     }
+    final missingShort = [
+      for (final language in catalogLanguages)
+        if (!entry.shortNames.containsKey(language)) language,
+    ];
+    if (missingShort.isNotEmpty && !entry.deprecated) {
+      report.missingShortNames.add(
+        '${entry.id} ${entry.englishName}: ${missingShort.join(', ')}',
+      );
+    }
   }
 }
 

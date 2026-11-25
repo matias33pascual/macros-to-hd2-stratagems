@@ -9,6 +9,8 @@ const String fallbackLanguage = 'en';
 /// [wikiPage] is the helldivers.wiki.gg page title used as merge key between
 /// runs; it is null while the entry has no confident wiki match. [names] only
 /// holds the languages that have a translation; consumers fall back to `en`.
+/// [shortNames] are the 1-3 word names a player says aloud; empty until
+/// written by hand, and consumers fall back to [names].
 class CatalogEntry {
   const CatalogEntry({
     required this.id,
@@ -19,6 +21,7 @@ class CatalogEntry {
     required this.names,
     this.wikiPage,
     this.wikiName,
+    this.shortNames = const {},
     this.deprecated = false,
   });
 
@@ -32,6 +35,9 @@ class CatalogEntry {
       icon: json['icon'] as String,
       cooldown: json['cooldown'] as String,
       names: Map<String, String>.from(json['names'] as Map),
+      shortNames: Map<String, String>.from(
+        json['shortNames'] as Map? ?? const {},
+      ),
       deprecated: json['deprecated'] as bool? ?? false,
     );
   }
@@ -46,6 +52,7 @@ class CatalogEntry {
   final String icon;
   final String cooldown;
   final Map<String, String> names;
+  final Map<String, String> shortNames;
 
   /// Legacy duplicate the app keeps for saved missions but hides.
   final bool deprecated;
@@ -67,6 +74,7 @@ class CatalogEntry {
       icon: icon ?? this.icon,
       cooldown: cooldown,
       names: names,
+      shortNames: shortNames,
       deprecated: deprecated,
     );
   }
@@ -81,6 +89,7 @@ class CatalogEntry {
       'icon': icon,
       'cooldown': cooldown,
       'names': names,
+      if (shortNames.isNotEmpty) 'shortNames': shortNames,
       if (deprecated) 'deprecated': true,
     };
   }

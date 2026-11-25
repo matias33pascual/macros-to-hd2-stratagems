@@ -1,6 +1,13 @@
 import 'package:macros_to_hd2_stratagems/stratagems_catalog.dart';
 import 'package:test/test.dart';
 
+const fullShortNames = {
+  'en': 'Laser',
+  'es': 'Láser',
+  'pt': 'Laser',
+  'ru': 'Лазер',
+};
+
 CatalogEntry _entry({
   String id = '000',
   String? wikiPage,
@@ -14,6 +21,7 @@ CatalogEntry _entry({
     'pt': 'LASER',
     'ru': 'ЛАЗЕР',
   },
+  Map<String, String> shortNames = const {},
 }) {
   return CatalogEntry(
     id: id,
@@ -25,6 +33,7 @@ CatalogEntry _entry({
     icon: icon,
     cooldown: '300',
     names: names,
+    shortNames: shortNames,
   );
 }
 
@@ -237,6 +246,58 @@ void main() {
       'en': 'MY LASER',
       'es': 'MI LÁSER',
     });
+  });
+
+  test('keeps shortNames through a run that changes the entry', () {
+    final result = _merge(
+      [
+        _entry(
+          wikiPage: 'Laser',
+          keys: ['up'],
+          shortNames: {'en': 'Laser', 'es': 'Láser'},
+        ),
+      ],
+      [_wiki('Laser')],
+    );
+
+    expect(result.catalog.entries.single.shortNames, {
+      'en': 'Laser',
+      'es': 'Láser',
+    });
+  });
+
+  test('a new entry has no shortNames and is reported', () {
+    final result = _merge(
+      [_entry(wikiPage: 'Laser', shortNames: fullShortNames)],
+      [_wiki('Laser'), _wiki('Orbital Flare')],
+      nextId: 1,
+    );
+
+    expect(result.catalog.entries.last.shortNames, isEmpty);
+    expect(result.report.missingShortNames.single, contains('Orbital Flare'));
+    expect(
+      result.report.format(),
+      contains('Entries missing short names (fall back to names): 1'),
+    );
+  });
+
+  test('shortNames are written only when present', () {
+    expect(_entry().toJson().containsKey('shortNames'), isFalse);
+    expect(_entry(shortNames: {'en': 'Laser'}).toJson()['shortNames'], {
+      'en': 'Laser',
+    });
+    expect(
+      Catalog.decode(
+        Catalog(
+          version: 1,
+          gameVersion: '1',
+          entries: [
+            _entry(shortNames: {'en': 'Laser'}),
+          ],
+        ).encode(),
+      ).entries.single.shortNames,
+      {'en': 'Laser'},
+    );
   });
 
   test('preserves deprecated', () {
