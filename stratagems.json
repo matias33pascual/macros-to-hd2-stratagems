@@ -512,7 +512,7 @@
         "en": "Guard Dog",
         "es": "Perro guardián",
         "pt": "Cão de guarda",
-        "ru": "Сторожевой пес"
+        "ru": "Сторожевой пёс"
       }
     },
     {
@@ -596,7 +596,7 @@
         "en": "Tesla Tower",
         "es": "Torre Tesla",
         "pt": "Torre Tesla",
-        "ru": "Тесла башня"
+        "ru": "Электрическая башня"
       }
     },
     {
@@ -675,7 +675,7 @@
         "en": "Machine Gun Sentry",
         "es": "Vigía ametralladora",
         "pt": "Sentinela metralhadora",
-        "ru": "Пулеметная турель"
+        "ru": "Пулемётная турель"
       }
     },
     {
@@ -728,7 +728,7 @@
         "en": "Mortar Sentry",
         "es": "Vigía mortero",
         "pt": "Sentinela morteiro",
-        "ru": "Турель миномета"
+        "ru": "Турель миномёта"
       }
     },
     {
@@ -810,7 +810,7 @@
         "en": "Stun Mortar",
         "es": "Mortero de choque",
         "pt": "Morteiro de choque",
-        "ru": "Оглушающий миномет"
+        "ru": "Оглушающий миномёт"
       }
     },
     {
@@ -1130,7 +1130,7 @@
         "en": "Machine Gun",
         "es": "Ametralladora",
         "pt": "Metralhadora",
-        "ru": "Пулемет"
+        "ru": "Пулемёт"
       }
     },
     {
@@ -1266,7 +1266,7 @@
         "en": "Flamethrower",
         "es": "Lanzallamas",
         "pt": "Lança-chamas",
-        "ru": "Огнемет"
+        "ru": "Огнемёт"
       }
     },
     {
@@ -1321,7 +1321,7 @@
         "en": "Heavy Machine Gun",
         "es": "Ametralladora pesada",
         "pt": "Metralhadora pesada",
-        "ru": "Тяжелый пулемет"
+        "ru": "Тяжёлый пулемёт"
       }
     },
     {
@@ -1430,7 +1430,7 @@
         "en": "Grenade Launcher",
         "es": "Lanzador de granadas",
         "pt": "Lança-granadas",
-        "ru": "Гранатомет"
+        "ru": "Гранатомёт"
       }
     },
     {
@@ -2138,7 +2138,7 @@
         "en": "Arc Dog",
         "es": "Perro eléctrico",
         "pt": "Cão elétrico",
-        "ru": "Дуговой пес"
+        "ru": "Дуговой пёс"
       }
     },
     {
@@ -2581,7 +2581,7 @@
         "en": "Gas Mortar",
         "es": "Mortero de gas",
         "pt": "Morteiro de gás",
-        "ru": "Газовый миномет"
+        "ru": "Газовый миномёт"
       }
     },
     {
